@@ -1,0 +1,147 @@
+[
+  {
+    "title": "আইসিটি - Set 1",
+    "description": "তথ্য ও যোগাযোগ প্রযুক্তি সম্পর্কিত প্রশ্নের মাধ্যমে আপনার জ্ঞান যাচাই করুন।",
+    "questions": [
+      {
+        "questionText": "কী ধরনের সফটওয়্যারকে অপারেটিং সিস্টেম বলা হয়?",
+        "options": [
+          "বিকল্প সফটওয়্যার",
+          "সিস্টেম সফটওয়্যার",
+          "অ্যাপ্লিকেশন সফটওয়্যার",
+          "টুলস সফটওয়্যার"
+        ],
+        "correctOption": "সিস্টেম সফটওয়্যার",
+        "explanation": "অপারেটিং সিস্টেম (OS) একটি সিস্টেম সফটওয়্যার, যা কম্পিউটার হার্ডওয়্যার ও সফটওয়্যার এর মধ্যে যোগাযোগ স্থাপন করে।"
+      },
+      {
+        "questionText": "বিশ্বের প্রথম কম্পিউটার কী নাম ছিল?",
+        "options": ["ENIAC", "UNIVAC", "Z3", "IBM 1401"],
+        "correctOption": "ENIAC",
+        "explanation": "ENIAC (Electronic Numerical Integrator and Computer) বিশ্বের প্রথম ডিজিটাল কম্পিউটার হিসেবে পরিচিত।"
+      },
+      {
+        "questionText": "কোনটি ক্লাউড কম্পিউটিংয়ের একটি উদাহরণ?",
+        "options": ["গুগল ড্রাইভ", "এক্সেল", "উইন্ডোজ 10", "ফটোশপ"],
+        "correctOption": "গুগল ড্রাইভ",
+        "explanation": "গুগল ড্রাইভ একটি ক্লাউড সেবা, যেখানে ব্যবহারকারীরা তাদের ডেটা অনলাইনে সংরক্ষণ করতে পারেন।"
+      },
+      {
+        "questionText": "ওয়েব পেজের ভাষা কি?",
+        "options": ["HTML", "CSS", "JavaScript", "C++"],
+        "correctOption": "HTML",
+        "explanation": "HTML (HyperText Markup Language) একটি মার্কআপ ভাষা, যা ওয়েব পেজ তৈরি করতে ব্যবহৃত হয়।"
+      },
+      {
+        "questionText": "তথ্য পাঠানোর জন্য কী ধরনের সিগন্যাল ব্যবহার করা হয়?",
+        "options": [
+          "অ্যানালগ সিগন্যাল",
+          "ডিজিটাল সিগন্যাল",
+          "বিভিন্ন সিগন্যাল",
+          "এনালগ ও ডিজিটাল সিগন্যাল"
+        ],
+        "correctOption": "এনালগ ও ডিজিটাল সিগন্যাল",
+        "explanation": "তথ্য প্রেরণ করতে সাধারণত এনালগ বা ডিজিটাল সিগন্যাল ব্যবহৃত হয়।"
+      }
+    ],
+    "duration": 5,
+    "pointsRequired": 5,
+    "difficultyLevel": "Medium",
+    "tags": [
+      "ICT",
+      "Technology",
+      "Computer Science",
+      "Internet",
+      "Programming"
+    ],
+    "penaltyPerIncorrectAnswer": 1
+  },
+  {
+    "title": "আইসিটি - Set 2",
+    "description": "তথ্য ও যোগাযোগ প্রযুক্তি সম্পর্কিত প্রশ্নের মাধ্যমে আপনার জ্ঞান যাচাই করুন।",
+    "questions": [
+      {
+        "questionText": "কম্পিউটারে ডেটা সংরক্ষণ করার জন্য কোন ডিভাইসটি ব্যবহার করা হয়?",
+        "options": ["RAM", "HDD", "CPU", "Motherboard"],
+        "correctOption": "HDD",
+        "explanation": "HDD (Hard Disk Drive) কম্পিউটারে ডেটা স্থায়ীভাবে সংরক্ষণ করতে ব্যবহৃত হয়।"
+      },
+      {
+        "questionText": "কোনটি একটি অপারেটিং সিস্টেম?",
+        "options": ["Linux", "C++", "HTML", "Java"],
+        "correctOption": "Linux",
+        "explanation": "Linux একটি ওপেন সোর্স অপারেটিং সিস্টেম, যা কম্পিউটার এবং সার্ভারে ব্যবহৃত হয়।"
+      },
+      {
+        "questionText": "ইন্টারনেট ব্রাউজার হিসেবে কোনটি ব্যবহৃত হয়?",
+        "options": ["MS Office", "Chrome", "Photoshop", "PowerPoint"],
+        "correctOption": "Chrome",
+        "explanation": "Google Chrome একটি জনপ্রিয় ইন্টারনেট ব্রাউজার, যা ওয়েবসাইট ব্রাউজ করতে ব্যবহৃত হয়।"
+      },
+      {
+        "questionText": "ডেটার নিরাপত্তার জন্য কোন ধরনের প্রোটোকল ব্যবহৃত হয়?",
+        "options": ["HTTP", "FTP", "HTTPS", "SMTP"],
+        "correctOption": "HTTPS",
+        "explanation": "HTTPS (HyperText Transfer Protocol Secure) ওয়েব ডেটা নিরাপদভাবে প্রেরণ করতে ব্যবহৃত হয়।"
+      },
+      {
+        "questionText": "কোনটি একটি প্রোগ্রামিং ভাষা?",
+        "options": ["Java", "HTML", "CSS", "FTP"],
+        "correctOption": "Java",
+        "explanation": "Java একটি শক্তিশালী প্রোগ্রামিং ভাষা, যা ওয়েব অ্যাপ্লিকেশন এবং মোবাইল অ্যাপ্লিকেশন তৈরিতে ব্যবহৃত হয়।"
+      }
+    ],
+    "duration": 5,
+    "pointsRequired": 5,
+    "difficultyLevel": "Medium",
+    "tags": [
+      "ICT",
+      "Technology",
+      "Computer Science",
+      "Internet",
+      "Programming"
+    ],
+    "penaltyPerIncorrectAnswer": 1
+  },
+  {
+    "title": "আইসিটি - Set 3",
+    "description": "তথ্য ও যোগাযোগ প্রযুক্তি সম্পর্কিত প্রশ্নের মাধ্যমে আপনার জ্ঞান যাচাই করুন।",
+    "questions": [
+      {
+        "questionText": "কোনটি ক্লাউড স্টোরেজ সেবা?",
+        "options": ["Google Drive", "Microsoft Word", "Photoshop", "Excel"],
+        "correctOption": "Google Drive",
+        "explanation": "Google Drive একটি ক্লাউড স্টোরেজ সেবা, যেখানে ব্যবহারকারীরা তাদের ডেটা অনলাইনে সংরক্ষণ করতে পারেন।"
+      },
+      {
+        "questionText": "কোনটি ওয়েব ব্রাউজারের উদাহরণ?",
+        "options": ["Android", "Windows", "Chrome", "C++"],
+        "correctOption": "Chrome",
+        "explanation": "Google Chrome একটি ওয়েব ব্রাউজার যা ব্যবহারকারীদের ওয়েব পেজ ব্রাউজ করতে সাহায্য করে।"
+      },
+      {
+        "questionText": "কম্পিউটার এর হার্ডওয়্যার উপাদান কোনটি?",
+        "options": ["RAM", "Windows", "Java", "Python"],
+        "correctOption": "RAM",
+        "explanation": "RAM (Random Access Memory) কম্পিউটারের হার্ডওয়্যার উপাদান যা ডেটা অ্যাক্সেস করতে ব্যবহৃত হয়।"
+      },
+      {
+        "questionText": "ইন্টারনেটে তথ্য আদান প্রদান করতে কোন প্রোটোকল ব্যবহৃত হয়?",
+        "options": ["HTTP", "FTP", "SMTP", "POP3"],
+        "correctOption": "HTTP",
+        "explanation": "HTTP (HyperText Transfer Protocol) হল একটি প্রোটোকল যা ওয়েব পেজের জন্য তথ্য আদান-প্রদান করতে ব্যবহৃত হয়।"
+      },
+      {
+        "questionText": "ডেটাবেস ম্যানেজমেন্ট সিস্টেম (DBMS) এর উদাহরণ কোনটি?",
+        "options": ["Oracle", "Windows", "Linux", "Chrome"],
+        "correctOption": "Oracle",
+        "explanation": "Oracle একটি ডেটাবেস ম্যানেজমেন্ট সিস্টেম (DBMS) যা ডেটা সংরক্ষণ এবং পরিচালনার জন্য ব্যবহৃত হয়।"
+      }
+    ],
+    "duration": 5,
+    "pointsRequired": 5,
+    "difficultyLevel": "Medium",
+    "tags": ["ICT", "Technology", "Computer Science", "Internet", "Database"],
+    "penaltyPerIncorrectAnswer": 1
+  }
+]

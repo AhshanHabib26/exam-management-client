@@ -1,0 +1,224 @@
+{
+    "questions": [
+        {
+            "questionText": "What does HTML stand for?",
+            "options": [
+                "Hyper Text Markup Language",
+                "Hyperlinks and Text Markup Language",
+                "Home Tool Markup Language",
+                "Hyper Tool Mark Language"
+            ],
+            "correctOption": "Hyper Text Markup Language",
+            "explanation": "HTML stands for Hyper Text Markup Language, which is used to create web pages."
+        },
+        {
+            "questionText": "Which HTML tag is used to define a paragraph?",
+            "options": [
+                "<p>",
+                "<h1>",
+                "<div>",
+                "<span>"
+            ],
+            "correctOption": "<p>",
+            "explanation": "The <p> tag is used to define a paragraph in HTML."
+        },
+        {
+            "questionText": "What is the purpose of the <!DOCTYPE> declaration?",
+            "options": [
+                "Defines the HTML version",
+                "Declares the document's title",
+                "Links CSS files",
+                "Defines metadata"
+            ],
+            "correctOption": "Defines the HTML version",
+            "explanation": "The <!DOCTYPE> declaration defines the version of HTML being used in the document."
+        },
+        {
+            "questionText": "Which attribute specifies an image source in the <img> tag?",
+            "options": [
+                "alt",
+                "src",
+                "href",
+                "title"
+            ],
+            "correctOption": "src",
+            "explanation": "The src attribute specifies the path to the image file."
+        },
+        {
+            "questionText": "What is the purpose of the <a> tag in HTML?",
+            "options": [
+                "To define an anchor/link",
+                "To create a new section",
+                "To insert an image",
+                "To style text"
+            ],
+            "correctOption": "To define an anchor/link",
+            "explanation": "The <a> tag is used to create hyperlinks to navigate to other pages or resources."
+        },
+        {
+            "questionText": "Which HTML tag is used to display a horizontal line?",
+            "options": [
+                "<hr>",
+                "<line>",
+                "<br>",
+                "<div>"
+            ],
+            "correctOption": "<hr>",
+            "explanation": "The <hr> tag is used to insert a horizontal line in HTML."
+        },
+        {
+            "questionText": "How do you create an ordered list in HTML?",
+            "options": [
+                "<ul>",
+                "<ol>",
+                "<li>",
+                "<dl>"
+            ],
+            "correctOption": "<ol>",
+            "explanation": "The <ol> tag is used to create an ordered (numbered) list in HTML."
+        },
+        {
+            "questionText": "Which attribute is used to specify unique identifiers for elements in HTML?",
+            "options": [
+                "class",
+                "id",
+                "name",
+                "data"
+            ],
+            "correctOption": "id",
+            "explanation": "The id attribute provides a unique identifier for an HTML element."
+        },
+        {
+            "questionText": "What is the default alignment for text in HTML?",
+            "options": [
+                "Left",
+                "Center",
+                "Right",
+                "Justify"
+            ],
+            "correctOption": "Left",
+            "explanation": "Text in HTML is left-aligned by default."
+        },
+        {
+            "questionText": "Which HTML element is used for the largest heading?",
+            "options": [
+                "<h6>",
+                "<h1>",
+                "<h3>",
+                "<h4>"
+            ],
+            "correctOption": "<h1>",
+            "explanation": "The <h1> tag is used for the largest heading in HTML."
+        },
+        {
+            "questionText": "Which HTML attribute is used to define inline styles?",
+            "options": [
+                "style",
+                "class",
+                "id",
+                "css"
+            ],
+            "correctOption": "style",
+            "explanation": "The style attribute is used to apply inline CSS to an element."
+        },
+        {
+            "questionText": "How can you open a link in a new tab using HTML?",
+            "options": [
+                "Add target='_self'",
+                "Add target='_blank'",
+                "Add new='true'",
+                "Add open='new'"
+            ],
+            "correctOption": "Add target='_blank'",
+            "explanation": "The target='_blank' attribute opens a link in a new tab."
+        },
+        {
+            "questionText": "What does the <table> tag define in HTML?",
+            "options": [
+                "A division",
+                "A form",
+                "A table",
+                "A paragraph"
+            ],
+            "correctOption": "A table",
+            "explanation": "The <table> tag is used to define a table structure in HTML."
+        },
+        {
+            "questionText": "Which tag is used to define a list item?",
+            "options": [
+                "<li>",
+                "<ul>",
+                "<ol>",
+                "<item>"
+            ],
+            "correctOption": "<li>",
+            "explanation": "The <li> tag is used to define an item in a list."
+        },
+        {
+            "questionText": "What is the purpose of the <meta> tag in HTML?",
+            "options": [
+                "To add images",
+                "To define metadata",
+                "To create links",
+                "To format text"
+            ],
+            "correctOption": "To define metadata",
+            "explanation": "The <meta> tag is used to provide metadata about an HTML document."
+        },
+        {
+            "questionText": "Which HTML element is used to embed a video?",
+            "options": [
+                "<video>",
+                "<media>",
+                "<embed>",
+                "<movie>"
+            ],
+            "correctOption": "<video>",
+            "explanation": "The <video> element is used to embed video content in a web page."
+        },
+        {
+            "questionText": "What does the <br> tag do in HTML?",
+            "options": [
+                "Breaks a paragraph",
+                "Creates a line break",
+                "Defines a block",
+                "Ends a tag"
+            ],
+            "correctOption": "Creates a line break",
+            "explanation": "The <br> tag is used to insert a line break in HTML content."
+        },
+        {
+            "questionText": "What is the <form> element used for?",
+            "options": [
+                "To create a table",
+                "To collect user input",
+                "To style text",
+                "To link files"
+            ],
+            "correctOption": "To collect user input",
+            "explanation": "The <form> element is used to collect input from users through various fields."
+        },
+        {
+            "questionText": "Which tag is used to define a clickable button in HTML?",
+            "options": [
+                "<button>",
+                "<input>",
+                "<click>",
+                "<form>"
+            ],
+            "correctOption": "<button>",
+            "explanation": "The <button> tag is used to define a clickable button in HTML."
+        },
+        {
+            "questionText": "What is the correct HTML tag for a line break?",
+            "options": [
+                "<break>",
+                "<lb>",
+                "<br>",
+                "<newline>"
+            ],
+            "correctOption": "<br>",
+            "explanation": "The <br> tag is used to create a line break in HTML."
+        }
+    ]
+}

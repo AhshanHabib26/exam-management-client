@@ -1,0 +1,261 @@
+[
+  {
+    "title": "Algebra Basics",
+    "description": "Test your fundamental algebra skills.",
+    "questions": [
+      {
+        "questionText": "Solve for \\( x \\): \\( 3x - 5 = 10 \\)",
+        "options": [
+          "\\( x = 5 \\)",
+          "\\( x = 3 \\)",
+          "\\( x = 7 \\)",
+          "\\( x = 10 \\)"
+        ],
+        "correctOption": "\\( x = 5 \\)",
+        "explanation": "Adding 5 to both sides gives \\( 3x = 15 \\), and dividing by 3 gives \\( x = 5 \\)."
+      },
+      {
+        "questionText": "If \\( y = 2x + 3 \\), what is \\( y \\) when \\( x = 4 \\)?",
+        "options": ["\\( 8 \\)", "\\( 11 \\)", "\\( 10 \\)", "\\( 15 \\)"],
+        "correctOption": "\\( 11 \\)",
+        "explanation": "Substituting \\( x = 4 \\) into \\( y = 2x + 3 \\), we get \\( y = 11 \\)."
+      },
+      {
+        "questionText": "What is the solution to \\( x^2 = 16 \\)?",
+        "options": ["\\( 4 \\)", "\\( \\pm 4 \\)", "\\( -4 \\)", "\\( 16 \\)"],
+        "correctOption": "\\( \\pm 4 \\)",
+        "explanation": "The square root of 16 is \\( \\pm 4 \\)."
+      },
+      {
+        "questionText": "Simplify \\( 2(x + 3) = 14 \\). What is \\( x \\)?",
+        "options": ["\\( 4 \\)", "\\( 5 \\)", "\\( 6 \\)", "\\( 7 \\)"],
+        "correctOption": "\\( 4 \\)",
+        "explanation": "Expanding gives \\( 2x + 6 = 14 \\). Subtracting 6 and dividing by 2 gives \\( x = 4 \\)."
+      },
+      {
+        "questionText": "If \\( 2x + 3y = 12 \\) and \\( y = 2 \\), find \\( x \\).",
+        "options": ["\\( 3 \\)", "\\( 4 \\)", "\\( 5 \\)", "\\( 6 \\)"],
+        "correctOption": "\\( 3 \\)",
+        "explanation": "Substituting \\( y = 2 \\), the equation becomes \\( 2x + 6 = 12 \\). Solving gives \\( x = 3 \\)."
+      }
+    ],
+    "duration": 5,
+    "pointsRequired": 5,
+    "difficultyLevel": "Easy",
+    "tags": ["math", "algebra"],
+    "penaltyPerIncorrectAnswer": 0.5
+  },
+  {
+    "title": "Geometry Essentials",
+    "description": "A quiz to test your basic geometry knowledge.",
+    "questions": [
+      {
+        "questionText": "What is the sum of interior angles in a triangle?",
+        "options": [
+          "\\( 90^\\circ \\)",
+          "\\( 180^\\circ \\)",
+          "\\( 270^\\circ \\)",
+          "\\( 360^\\circ \\)"
+        ],
+        "correctOption": "\\( 180^\\circ \\)",
+        "explanation": "The sum of angles in any triangle is always \\( 180^\\circ \\)."
+      },
+      {
+        "questionText": "What is the area of a triangle with base \\( b = 5 \\) and height \\( h = 10 \\)?",
+        "options": ["\\( 25 \\)", "\\( 50 \\)", "\\( 20 \\)", "\\( 30 \\)"],
+        "correctOption": "\\( 25 \\)",
+        "explanation": "The area is \\( \\frac{1}{2}bh \\). Substituting values gives \\( \\frac{1}{2}(5)(10) = 25 \\)."
+      },
+      {
+        "questionText": "What is the formula for the circumference of a circle?",
+        "options": [
+          "\\( 2\\pi r \\)",
+          "\\( \\pi r^2 \\)",
+          "\\( \\pi d \\)",
+          "\\( 2d \\)"
+        ],
+        "correctOption": "\\( 2\\pi r \\)",
+        "explanation": "The circumference of a circle is \\( 2\\pi r \\)."
+      },
+      {
+        "questionText": "Find the length of the hypotenuse in a right triangle with legs \\( 3 \\) and \\( 4 \\).",
+        "options": ["\\( 5 \\)", "\\( 6 \\)", "\\( 7 \\)", "\\( 4 \\)"],
+        "correctOption": "\\( 5 \\)",
+        "explanation": "Using the Pythagorean theorem: \\( c = \\sqrt{3^2 + 4^2} = 5 \\)."
+      },
+      {
+        "questionText": "What is the volume of a cube with side length \\( a = 3 \\)?",
+        "options": ["\\( 9 \\)", "\\( 27 \\)", "\\( 18 \\)", "\\( 12 \\)"],
+        "correctOption": "\\( 27 \\)",
+        "explanation": "The volume of a cube is \\( a^3 \\). Substituting \\( a = 3 \\), \\( 3^3 = 27 \\)."
+      }
+    ],
+    "duration": 5,
+    "pointsRequired": 5,
+    "difficultyLevel": "Medium",
+    "tags": ["math", "geometry"],
+    "penaltyPerIncorrectAnswer": 1
+  },
+  {
+    "title": "Calculus Basics",
+    "description": "Assess your understanding of basic calculus concepts.",
+    "questions": [
+      {
+        "questionText": "What is the derivative of \\( x^3 \\)?",
+        "options": ["\\( 2x \\)", "\\( 3x^2 \\)", "\\( 3x \\)", "\\( x^2 \\)"],
+        "correctOption": "\\( 3x^2 \\)",
+        "explanation": "The power rule states \\( \\frac{d}{dx}(x^n) = nx^{n-1} \\)."
+      },
+      {
+        "questionText": "What is \\( \\int 2x dx \\)?",
+        "options": [
+          "\\( x^2 \\)",
+          "\\( x^2 + C \\)",
+          "\\( 2x^2 \\)",
+          "\\( \\frac{x^2}{2} \\)"
+        ],
+        "correctOption": "\\( x^2 + C \\)",
+        "explanation": "The integral of \\( 2x \\) is \\( x^2 + C \\)."
+      },
+      {
+        "questionText": "Find the limit of \\( \\lim_{x \\to 0} \\frac{\\sin x}{x} \\).",
+        "options": ["\\( 1 \\)", "\\( 0 \\)", "\\( \\infty \\)", "\\( -1 \\)"],
+        "correctOption": "\\( 1 \\)",
+        "explanation": "The limit \\( \\frac{\\sin x}{x} \\) as \\( x \\to 0 \\) is a standard result: \\( 1 \\)."
+      },
+      {
+        "questionText": "What is the slope of the tangent line to \\( y = x^2 \\) at \\( x = 2 \\)?",
+        "options": ["\\( 2 \\)", "\\( 4 \\)", "\\( 8 \\)", "\\( 1 \\)"],
+        "correctOption": "\\( 4 \\)",
+        "explanation": "The derivative \\( \\frac{dy}{dx} = 2x \\). Substituting \\( x = 2 \\), slope is \\( 4 \\)."
+      },
+      {
+        "questionText": "Evaluate \\( \\frac{d}{dx}(e^x) \\).",
+        "options": [
+          "\\( e^x \\)",
+          "\\( x \\cdot e^x \\)",
+          "\\( 1 \\)",
+          "\\( x \\)"
+        ],
+        "correctOption": "\\( e^x \\)",
+        "explanation": "The derivative of \\( e^x \\) is \\( e^x \\)."
+      }
+    ],
+    "duration": 5,
+    "pointsRequired": 5,
+    "difficultyLevel": "Hard",
+    "tags": ["math", "calculus"]
+  },
+  {
+    "title": "Statistics Basics",
+    "description": "Test your understanding of basic statistical concepts.",
+    "questions": [
+      {
+        "questionText": "What is the mean of the data set \\( [2, 4, 6, 8, 10] \\)?",
+        "options": ["\\( 6 \\)", "\\( 5 \\)", "\\( 7 \\)", "\\( 8 \\)"],
+        "correctOption": "\\( 6 \\)",
+        "explanation": "The mean is calculated as \\( \\frac{2 + 4 + 6 + 8 + 10}{5} = 6 \\)."
+      },
+      {
+        "questionText": "What is the median of the data set \\( [3, 1, 4, 2, 5] \\)?",
+        "options": ["\\( 3 \\)", "\\( 4 \\)", "\\( 2 \\)", "\\( 5 \\)"],
+        "correctOption": "\\( 3 \\)",
+        "explanation": "Arranging the data in order \\( [1, 2, 3, 4, 5] \\), the middle value is \\( 3 \\)."
+      },
+      {
+        "questionText": "What is the mode of the data set \\( [7, 9, 7, 8, 10, 7] \\)?",
+        "options": ["\\( 7 \\)", "\\( 8 \\)", "\\( 9 \\)", "\\( 10 \\)"],
+        "correctOption": "\\( 7 \\)",
+        "explanation": "The mode is the most frequent value, which is \\( 7 \\)."
+      },
+      {
+        "questionText": "What is the range of the data set \\( [12, 15, 10, 20, 18] \\)?",
+        "options": ["\\( 10 \\)", "\\( 8 \\)", "\\( 5 \\)", "\\( 12 \\)"],
+        "correctOption": "\\( 10 \\)",
+        "explanation": "The range is \\( 20 - 10 = 10 \\)."
+      },
+      {
+        "questionText": "What is the variance of the data set \\( [2, 4, 6] \\)?",
+        "options": [
+          "\\( 2 \\)",
+          "\\( 4 \\)",
+          "\\( \\frac{4}{3} \\)",
+          "\\( \\frac{2}{3} \\)"
+        ],
+        "correctOption": "\\( \\frac{4}{3} \\)",
+        "explanation": "Variance is calculated as \\( \\frac{\\sum (x_i - \\bar{x})^2}{n} \\)."
+      }
+    ],
+    "duration": 5,
+    "pointsRequired": 5,
+    "difficultyLevel": "Medium",
+    "tags": ["math", "statistics"],
+    "penaltyPerIncorrectAnswer": 0.5
+  },
+  {
+    "title": "Probability Basics",
+    "description": "Assess your knowledge of basic probability concepts.",
+    "questions": [
+      {
+        "questionText": "A die is rolled once. What is the probability of rolling a \\( 4 \\)?",
+        "options": [
+          "\\( \\frac{1}{4} \\)",
+          "\\( \\frac{1}{6} \\)",
+          "\\( \\frac{1}{8} \\)",
+          "\\( \\frac{1}{12} \\)"
+        ],
+        "correctOption": "\\( \\frac{1}{6} \\)",
+        "explanation": "A die has 6 sides, so the probability of rolling any one number is \\( \\frac{1}{6} \\)."
+      },
+      {
+        "questionText": "A coin is flipped twice. What is the probability of getting two heads?",
+        "options": [
+          "\\( \\frac{1}{4} \\)",
+          "\\( \\frac{1}{2} \\)",
+          "\\( \\frac{1}{3} \\)",
+          "\\( \\frac{1}{8} \\)"
+        ],
+        "correctOption": "\\( \\frac{1}{4} \\)",
+        "explanation": "The probability of heads is \\( \\frac{1}{2} \\) for each flip. \\( \\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4} \\)."
+      },
+      {
+        "questionText": "What is the probability of selecting a red card from a standard deck of 52 cards?",
+        "options": [
+          "\\( \\frac{1}{4} \\)",
+          "\\( \\frac{1}{2} \\)",
+          "\\( \\frac{1}{3} \\)",
+          "\\( \\frac{1}{13} \\)"
+        ],
+        "correctOption": "\\( \\frac{1}{2} \\)",
+        "explanation": "Half of the 52 cards are red (26 cards), so the probability is \\( \\frac{26}{52} = \\frac{1}{2} \\)."
+      },
+      {
+        "questionText": "If two dice are rolled, what is the probability of rolling a sum of \\( 7 \\)?",
+        "options": [
+          "\\( \\frac{1}{6} \\)",
+          "\\( \\frac{1}{12} \\)",
+          "\\( \\frac{1}{36} \\)",
+          "\\( \\frac{1}{18} \\)"
+        ],
+        "correctOption": "\\( \\frac{1}{6} \\)",
+        "explanation": "There are 6 combinations that result in a sum of \\( 7 \\), and 36 total outcomes: \\( \\frac{6}{36} = \\frac{1}{6} \\)."
+      },
+      {
+        "questionText": "What is the probability of drawing a king or a queen from a standard deck of cards?",
+        "options": [
+          "\\( \\frac{1}{26} \\)",
+          "\\( \\frac{2}{13} \\)",
+          "\\( \\frac{1}{13} \\)",
+          "\\( \\frac{1}{52} \\)"
+        ],
+        "correctOption": "\\( \\frac{2}{13} \\)",
+        "explanation": "There are 4 kings and 4 queens in a deck, totaling 8 cards: \\( \\frac{8}{52} = \\frac{2}{13} \\)."
+      }
+    ],
+    "duration": 5,
+    "pointsRequired": 5,
+    "difficultyLevel": "Medium",
+    "tags": ["math", "probability"],
+    "penaltyPerIncorrectAnswer": 0.5
+  }
+]

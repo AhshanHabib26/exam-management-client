@@ -1,0 +1,224 @@
+{
+    "questions": [
+        {
+            "questionText": "What does CSS stand for?",
+            "options": [
+                "Cascading Style Sheets",
+                "Colorful Style Sheets",
+                "Creative Style Sheets",
+                "Computer Style Sheets"
+            ],
+            "correctOption": "Cascading Style Sheets",
+            "explanation": "CSS stands for Cascading Style Sheets and is used to style web pages."
+        },
+        {
+            "questionText": "Which property is used to change the background color of an element?",
+            "options": [
+                "color",
+                "background-color",
+                "bg-color",
+                "background"
+            ],
+            "correctOption": "background-color",
+            "explanation": "The background-color property is used to set the background color of an element."
+        },
+        {
+            "questionText": "How do you select an element with the ID 'header'?",
+            "options": [
+                "#header",
+                ".header",
+                "header",
+                "id:header"
+            ],
+            "correctOption": "#header",
+            "explanation": "In CSS, IDs are selected using the '#' symbol."
+        },
+        {
+            "questionText": "Which property is used to change the font of an element?",
+            "options": [
+                "font-family",
+                "font-style",
+                "font-weight",
+                "font"
+            ],
+            "correctOption": "font-family",
+            "explanation": "The font-family property specifies the font for text."
+        },
+        {
+            "questionText": "What is the default position value in CSS?",
+            "options": [
+                "static",
+                "relative",
+                "absolute",
+                "fixed"
+            ],
+            "correctOption": "static",
+            "explanation": "The default position value for elements in CSS is static."
+        },
+        {
+            "questionText": "How do you make text bold in CSS?",
+            "options": [
+                "font-weight: bold;",
+                "text-style: bold;",
+                "font: bold;",
+                "style: bold;"
+            ],
+            "correctOption": "font-weight: bold;",
+            "explanation": "The font-weight property with the value 'bold' makes text bold."
+        },
+        {
+            "questionText": "Which property is used to control the space between lines of text?",
+            "options": [
+                "spacing",
+                "line-height",
+                "text-indent",
+                "letter-spacing"
+            ],
+            "correctOption": "line-height",
+            "explanation": "The line-height property controls the space between lines of text."
+        },
+        {
+            "questionText": "How do you apply a style to all elements of a specific class?",
+            "options": [
+                ".classname",
+                "#classname",
+                "classname",
+                "class:classname"
+            ],
+            "correctOption": ".classname",
+            "explanation": "Classes are selected using a dot (.) followed by the class name."
+        },
+        {
+            "questionText": "Which property is used to add or modify shadows for text?",
+            "options": [
+                "text-shadow",
+                "box-shadow",
+                "shadow",
+                "font-shadow"
+            ],
+            "correctOption": "text-shadow",
+            "explanation": "The text-shadow property adds or modifies shadows for text."
+        },
+        {
+            "questionText": "How do you specify the width of a border in CSS?",
+            "options": [
+                "border-width",
+                "border-size",
+                "border-thickness",
+                "border"
+            ],
+            "correctOption": "border-width",
+            "explanation": "The border-width property is used to specify the width of a border."
+        },
+        {
+            "questionText": "Which CSS property is used to change the text color of an element?",
+            "options": [
+                "text-color",
+                "font-color",
+                "color",
+                "foreground-color"
+            ],
+            "correctOption": "color",
+            "explanation": "The color property is used to set the text color of an element."
+        },
+        {
+            "questionText": "Which value of the position property will make an element fixed on the screen?",
+            "options": [
+                "absolute",
+                "fixed",
+                "static",
+                "relative"
+            ],
+            "correctOption": "fixed",
+            "explanation": "The fixed value positions an element relative to the browser window and does not move when scrolling."
+        },
+        {
+            "questionText": "What is the use of the z-index property in CSS?",
+            "options": [
+                "To control the stack order of elements",
+                "To set the opacity of an element",
+                "To change the position of an element",
+                "To apply animations"
+            ],
+            "correctOption": "To control the stack order of elements",
+            "explanation": "The z-index property specifies the stack order of elements."
+        },
+        {
+            "questionText": "How do you make an element transparent in CSS?",
+            "options": [
+                "opacity",
+                "visibility",
+                "transparent",
+                "alpha"
+            ],
+            "correctOption": "opacity",
+            "explanation": "The opacity property sets the transparency level of an element."
+        },
+        {
+            "questionText": "What does the 'em' unit represent in CSS?",
+            "options": [
+                "The width of the parent element",
+                "The height of the parent element",
+                "The font size of the parent element",
+                "The size of the viewport"
+            ],
+            "correctOption": "The font size of the parent element",
+            "explanation": "The 'em' unit is relative to the font size of the parent element."
+        },
+        {
+            "questionText": "Which property is used to create space inside an element, between its content and border?",
+            "options": [
+                "margin",
+                "padding",
+                "border-spacing",
+                "spacing"
+            ],
+            "correctOption": "padding",
+            "explanation": "Padding creates space between the content of an element and its border."
+        },
+        {
+            "questionText": "How can you apply a style to only the first child of an element?",
+            "options": [
+                "first-child",
+                "nth-child(1)",
+                ":first-child",
+                ":nth-of-child(1)"
+            ],
+            "correctOption": ":first-child",
+            "explanation": "The :first-child pseudo-class targets the first child of an element."
+        },
+        {
+            "questionText": "What is the function of the transition property in CSS?",
+            "options": [
+                "To change element sizes",
+                "To define the speed of animations",
+                "To create smooth changes between property values",
+                "To specify the timing of an animation"
+            ],
+            "correctOption": "To create smooth changes between property values",
+            "explanation": "The transition property defines how changes in property values occur over time."
+        },
+        {
+            "questionText": "Which property is used to control the horizontal alignment of text?",
+            "options": [
+                "text-align",
+                "text-indent",
+                "horizontal-align",
+                "justify"
+            ],
+            "correctOption": "text-align",
+            "explanation": "The text-align property is used to set the horizontal alignment of text."
+        },
+        {
+            "questionText": "Which property is used to make a website responsive?",
+            "options": [
+                "media queries",
+                "flexbox",
+                "grid",
+                "All of the above"
+            ],
+            "correctOption": "All of the above",
+            "explanation": "Responsive design is achieved using media queries, flexbox, and grid layout."
+        }
+    ]
+}

@@ -1,0 +1,305 @@
+[
+  {
+    "title": "English Grammar (Basic Tenses)",
+    "description": "Test your knowledge of basic English tenses.",
+    "questions": [
+      {
+        "questionText": "Which of the following sentences is in the present continuous tense?",
+        "options": [
+          "She writes a letter.",
+          "She is writing a letter.",
+          "She wrote a letter.",
+          "She will write a letter."
+        ],
+        "correctOption": "She is writing a letter.",
+        "explanation": "The present continuous tense is used to describe actions happening right now or in the near future."
+      },
+      {
+        "questionText": "Which sentence is in the past perfect tense?",
+        "options": [
+          "I have seen the movie.",
+          "I will see the movie.",
+          "I had seen the movie.",
+          "I am seeing the movie."
+        ],
+        "correctOption": "I had seen the movie.",
+        "explanation": "The past perfect tense is used to describe an action that was completed before another action in the past."
+      },
+      {
+        "questionText": "Which of the following is the correct sentence in future tense?",
+        "options": [
+          "I am going to school.",
+          "I will go to school.",
+          "I go to school.",
+          "I went to school."
+        ],
+        "correctOption": "I will go to school.",
+        "explanation": "The future tense is used to describe actions that will happen in the future."
+      },
+      {
+        "questionText": "Choose the correct sentence in the present perfect tense.",
+        "options": [
+          "I have seen that movie.",
+          "I have saw that movie.",
+          "I see that movie.",
+          "I seen that movie."
+        ],
+        "correctOption": "I have seen that movie.",
+        "explanation": "The present perfect tense is used for actions that occurred at an unspecified time before now."
+      },
+      {
+        "questionText": "Which sentence is in the past continuous tense?",
+        "options": [
+          "I was eating lunch.",
+          "I eat lunch.",
+          "I have eaten lunch.",
+          "I had eaten lunch."
+        ],
+        "correctOption": "I was eating lunch.",
+        "explanation": "The past continuous tense is used for actions that were happening at a specific point in the past."
+      }
+    ],
+    "pointsRequired": 5,
+    "difficultyLevel": "Easy",
+    "tags": ["english", "grammar", "tenses"],
+    "penaltyPerIncorrectAnswer": 0.5
+  },
+  {
+    "title": "English Grammar (Parts of Speech)",
+    "description": "Test your knowledge of parts of speech in English grammar.",
+    "questions": [
+      {
+        "questionText": "Which of the following is a noun?",
+        "options": ["quickly", "happiness", "beautiful", "slowly"],
+        "correctOption": "happiness",
+        "explanation": "A noun is a word that represents a person, place, thing, or idea."
+      },
+      {
+        "questionText": "Which word is an adjective in the sentence: 'She has a beautiful dress.'?",
+        "options": ["She", "has", "beautiful", "dress"],
+        "correctOption": "beautiful",
+        "explanation": "An adjective is a word that describes or modifies a noun."
+      },
+      {
+        "questionText": "Which of the following is a verb?",
+        "options": ["quick", "eat", "angry", "faster"],
+        "correctOption": "eat",
+        "explanation": "A verb is a word that describes an action or state of being."
+      },
+      {
+        "questionText": "Which of the following is an adverb?",
+        "options": ["slow", "slowly", "running", "walk"],
+        "correctOption": "slowly",
+        "explanation": "An adverb modifies a verb, adjective, or another adverb. 'Slowly' modifies the verb 'running'."
+      },
+      {
+        "questionText": "In the sentence 'She gave me the book,' what part of speech is 'book'?",
+        "options": ["Noun", "Verb", "Adverb", "Pronoun"],
+        "correctOption": "Noun",
+        "explanation": "A noun is a word that identifies a person, place, thing, or idea. 'Book' is a thing."
+      }
+    ],
+    "duration": 5,
+    "pointsRequired": 5,
+    "difficultyLevel": "Medium",
+    "tags": ["english", "grammar", "parts of speech"],
+    "penaltyPerIncorrectAnswer": 1
+  },
+  {
+    "title": "English Grammar (Subject-Verb Agreement)",
+    "description": "Test your understanding of subject-verb agreement in English.",
+    "questions": [
+      {
+        "questionText": "Choose the correct sentence:",
+        "options": [
+          "She go to school every day.",
+          "She goes to school every day.",
+          "She going to school every day.",
+          "She to go to school every day."
+        ],
+        "correctOption": "She goes to school every day.",
+        "explanation": "In subject-verb agreement, the subject 'she' is singular, so the verb 'goes' should be used."
+      },
+      {
+        "questionText": "Choose the correct sentence:",
+        "options": [
+          "They is playing football.",
+          "They plays football.",
+          "They play football.",
+          "They playing football."
+        ],
+        "correctOption": "They play football.",
+        "explanation": "The verb 'play' is correct because the subject 'they' is plural."
+      },
+      {
+        "questionText": "Which of the following is correct?",
+        "options": [
+          "The dogs runs fast.",
+          "The dog run fast.",
+          "The dogs run fast.",
+          "The dog runs fast."
+        ],
+        "correctOption": "The dogs run fast.",
+        "explanation": "In subject-verb agreement, 'dogs' is plural, so the verb should be 'run' (without 's')."
+      },
+      {
+        "questionText": "Choose the correct sentence:",
+        "options": [
+          "The teacher speak loudly.",
+          "The teacher speaks loudly.",
+          "The teacher speaking loudly.",
+          "The teacher to speak loudly."
+        ],
+        "correctOption": "The teacher speaks loudly.",
+        "explanation": "The subject 'teacher' is singular, so the verb 'speaks' should be used."
+      },
+      {
+        "questionText": "Which sentence is correct?",
+        "options": [
+          "He don't like ice cream.",
+          "He doesn't like ice cream.",
+          "He don't likes ice cream.",
+          "He doesn't likes ice cream."
+        ],
+        "correctOption": "He doesn't like ice cream.",
+        "explanation": "The correct form is 'doesn't' for singular subjects in the present tense."
+      }
+    ],
+    "duration": 5,
+    "pointsRequired": 5,
+    "difficultyLevel": "Medium",
+    "tags": ["english", "grammar", "subject-verb agreement"],
+    "penaltyPerIncorrectAnswer": 0.5
+  },
+  {
+    "title": "English Grammar (Sentence Structure)",
+    "description": "Learn about the basic sentence structures in English grammar.",
+    "questions": [
+      {
+        "questionText": "Which sentence is in the passive voice?",
+        "options": [
+          "The cat chased the mouse.",
+          "The mouse was chased by the cat.",
+          "The cat is chasing the mouse.",
+          "The mouse is chasing the cat."
+        ],
+        "correctOption": "The mouse was chased by the cat.",
+        "explanation": "In the passive voice, the object of the action becomes the subject of the sentence."
+      },
+      {
+        "questionText": "Which of the following is a simple sentence?",
+        "options": [
+          "I went to the store and bought milk.",
+          "Although I was tired, I went to the store.",
+          "I went to the store.",
+          "I went to the store but forgot to buy milk."
+        ],
+        "correctOption": "I went to the store.",
+        "explanation": "A simple sentence consists of only one independent clause with a subject and predicate."
+      },
+      {
+        "questionText": "Which sentence is a compound sentence?",
+        "options": [
+          "She is reading a book.",
+          "She is reading a book, and he is watching TV.",
+          "She reads the book every day.",
+          "She loves reading books."
+        ],
+        "correctOption": "She is reading a book, and he is watching TV.",
+        "explanation": "A compound sentence contains two independent clauses joined by a conjunction."
+      },
+      {
+        "questionText": "Which of the following is a complex sentence?",
+        "options": [
+          "I enjoy reading books.",
+          "Because I was tired, I went to bed early.",
+          "He likes sports.",
+          "She plays the piano."
+        ],
+        "correctOption": "Because I was tired, I went to bed early.",
+        "explanation": "A complex sentence contains one independent clause and one or more dependent clauses."
+      },
+      {
+        "questionText": "Which sentence is a question?",
+        "options": [
+          "You are coming to the party.",
+          "Are you coming to the party?",
+          "You come to the party.",
+          "You will come to the party."
+        ],
+        "correctOption": "Are you coming to the party?",
+        "explanation": "A question sentence starts with an auxiliary verb or question word."
+      }
+    ],
+    "duration": 5,
+    "pointsRequired": 5,
+    "difficultyLevel": "Medium",
+    "tags": ["english", "grammar", "sentence structure"]
+  },
+  {
+    "title": "English Grammar (Punctuation)",
+    "description": "Test your knowledge of punctuation marks in English.",
+    "questions": [
+      {
+        "questionText": "Which sentence is correctly punctuated?",
+        "options": [
+          "She said, 'I love reading.'",
+          "She said I love reading.'",
+          "She said, I love reading.",
+          "She said I love reading.'"
+        ],
+        "correctOption": "She said, 'I love reading.'",
+        "explanation": "In direct speech, the punctuation should be inside the quotation marks."
+      },
+      {
+        "questionText": "Choose the sentence with correct punctuation:",
+        "options": [
+          "The cat, who was hungry, ate the food.",
+          "The cat who was hungry ate the food.",
+          "The cat who was hungry, ate the food.",
+          "The cat who, was hungry ate the food."
+        ],
+        "correctOption": "The cat, who was hungry, ate the food.",
+        "explanation": "Non-essential clauses should be set off with commas."
+      },
+      {
+        "questionText": "Which sentence uses the semicolon correctly?",
+        "options": [
+          "I like to read; and I love to write.",
+          "I like to read, I love to write.",
+          "I like to read; I love to write.",
+          "I like to read: I love to write."
+        ],
+        "correctOption": "I like to read; I love to write.",
+        "explanation": "A semicolon is used to connect closely related independent clauses."
+      },
+      {
+        "questionText": "Which sentence is correctly punctuated?",
+        "options": [
+          "It's raining outside, don't forget your umbrella.",
+          "It's raining outside don't forget your umbrella.",
+          "It's raining outside; don't forget your umbrella.",
+          "It's raining outside, don't forget; your umbrella."
+        ],
+        "correctOption": "It's raining outside; don't forget your umbrella.",
+        "explanation": "A semicolon is used here to link two related clauses."
+      },
+      {
+        "questionText": "Which sentence correctly uses the apostrophe?",
+        "options": [
+          "The cats tail is long.",
+          "The cat's tail is long.",
+          "The cats' tail is long.",
+          "The cats's tail is long."
+        ],
+        "correctOption": "The cat's tail is long.",
+        "explanation": "The apostrophe is used to show possession."
+      }
+    ],
+    "duration": 5,
+    "pointsRequired": 5,
+    "difficultyLevel": "Medium",
+    "tags": ["english", "grammar", "punctuation"],
+    "penaltyPerIncorrectAnswer": 0.5
+  }
+]

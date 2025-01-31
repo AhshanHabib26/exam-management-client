@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "questionText": "What is React JS?",
+      "options": ["A backend framework", "A JavaScript library for building UIs", "A database management tool", "An operating system"],
+      "correctOption": "A JavaScript library for building UIs",
+      "explanation": "React is a JavaScript library developed by Facebook for building user interfaces."
+    },
+    {
+      "questionText": "What is the purpose of the virtual DOM in React?",
+      "options": ["To optimize app performance", "To manage databases", "To style components", "To handle server-side rendering"],
+      "correctOption": "To optimize app performance",
+      "explanation": "The virtual DOM allows React to update the user interface efficiently by minimizing direct DOM manipulations."
+    },
+    {
+      "questionText": "What is JSX?",
+      "options": ["A CSS preprocessor", "A syntax extension for JavaScript", "A JavaScript function", "A state management library"],
+      "correctOption": "A syntax extension for JavaScript",
+      "explanation": "JSX allows developers to write HTML-like syntax in JavaScript files, which is then transpiled to JavaScript."
+    },
+    {
+      "questionText": "Which method is used to create components in React?",
+      "options": ["render()", "React.createComponent()", "React.createElement()", "setState()"],
+      "correctOption": "React.createElement()",
+      "explanation": "React.createElement() is used to create React elements, which are the building blocks of components."
+    },
+    {
+      "questionText": "What are React props?",
+      "options": ["Component properties", "State variables", "JavaScript functions", "CSS classes"],
+      "correctOption": "Component properties",
+      "explanation": "Props are read-only properties passed to components to make them dynamic."
+    },
+    {
+      "questionText": "What is state in React?",
+      "options": ["A method to fetch data", "A variable that controls rendering", "A data structure for managing UI data", "A Redux property"],
+      "correctOption": "A data structure for managing UI data",
+      "explanation": "State is an object that stores data affecting how a component renders and behaves."
+    },
+    {
+      "questionText": "Which hook is used for adding state in a functional component?",
+      "options": ["useEffect", "useState", "useRef", "useReducer"],
+      "correctOption": "useState",
+      "explanation": "The useState hook is used to add state management to functional components."
+    },
+    {
+      "questionText": "What is the default behavior of a React component on state update?",
+      "options": ["Re-renders the entire application", "Re-renders only the changed parts", "Stops rendering", "Clears the state"],
+      "correctOption": "Re-renders only the changed parts",
+      "explanation": "React optimizes rendering by updating only the components affected by the state change."
+    },
+    {
+      "questionText": "What does the React key prop do?",
+      "options": ["Adds styling", "Improves performance for lists", "Manages state", "Handles errors"],
+      "correctOption": "Improves performance for lists",
+      "explanation": "Keys help React identify elements that have changed, are added, or removed in lists."
+    },
+    {
+      "questionText": "Which method is used to handle side effects in functional components?",
+      "options": ["useState", "useEffect", "componentDidMount", "useReducer"],
+      "correctOption": "useEffect",
+      "explanation": "The useEffect hook is used to perform side effects like data fetching or subscriptions in functional components."
+    },
+    {
+      "questionText": "What does React.Fragment do?",
+      "options": ["Manages component state", "Allows multiple elements to be grouped", "Styles components", "Handles API requests"],
+      "correctOption": "Allows multiple elements to be grouped",
+      "explanation": "React.Fragment is used to group multiple elements without adding extra nodes to the DOM."
+    },
+    {
+      "questionText": "What is React context used for?",
+      "options": ["Styling components", "Managing global state", "Fetching data", "Debugging applications"],
+      "correctOption": "Managing global state",
+      "explanation": "React context provides a way to share data between components without passing props explicitly."
+    },
+    {
+      "questionText": "Which of the following is a React lifecycle method?",
+      "options": ["componentWillUnmount", "componentDidUpdate", "componentDidMount", "All of the above"],
+      "correctOption": "All of the above",
+      "explanation": "All of these are lifecycle methods used in class components to manage component life cycle stages."
+    },
+    {
+      "questionText": "What does the useReducer hook do?",
+      "options": ["Manages CSS styles", "Handles global state", "Replaces Redux", "Manages complex state logic"],
+      "correctOption": "Manages complex state logic",
+      "explanation": "The useReducer hook is used to manage complex state logic in functional components."
+    },
+    {
+      "questionText": "What does the React.memo function do?",
+      "options": ["Memoizes components", "Improves component re-rendering", "Handles state updates", "Applies styles"],
+      "correctOption": "Improves component re-rendering",
+      "explanation": "React.memo is a higher-order component that optimizes performance by memoizing rendered output."
+    },
+    {
+      "questionText": "What is the useRef hook used for?",
+      "options": ["Managing state", "Accessing DOM elements", "Performing side effects", "Managing context"],
+      "correctOption": "Accessing DOM elements",
+      "explanation": "The useRef hook allows direct access to DOM elements and persists values across renders."
+    },
+    {
+      "questionText": "What is the main purpose of React Router?",
+      "options": ["State management", "Styling components", "Handling navigation", "Managing API requests"],
+      "correctOption": "Handling navigation",
+      "explanation": "React Router is a library for handling navigation and routing in React applications."
+    },
+    {
+      "questionText": "What is the difference between a class and functional component in React?",
+      "options": ["Class components are faster", "Functional components cannot use state", "Functional components use hooks", "Class components don't support lifecycle methods"],
+      "correctOption": "Functional components use hooks",
+      "explanation": "Functional components rely on hooks like useState and useEffect for managing state and side effects."
+    },
+    {
+      "questionText": "What does React.StrictMode do?",
+      "options": ["Enforces strict styling", "Identifies potential problems", "Improves rendering speed", "Handles errors"],
+      "correctOption": "Identifies potential problems",
+      "explanation": "React.StrictMode helps identify potential problems in the application during development."
+    },
+    {
+      "questionText": "What is Redux used for in React?",
+      "options": ["Managing server requests", "Styling components", "Managing global state", "Rendering components"],
+      "correctOption": "Managing global state",
+      "explanation": "Redux is a state management library commonly used to manage global state in React applications."
+    }
+  ]
+}

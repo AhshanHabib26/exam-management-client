@@ -1,0 +1,224 @@
+{
+    "questions": [
+        {
+            "questionText": "What is the correct way to declare a JavaScript variable?",
+            "options": [
+                "var myVariable;",
+                "variable myVariable;",
+                "v myVariable;",
+                "declare myVariable;"
+            ],
+            "correctOption": "var myVariable;",
+            "explanation": "The correct syntax to declare a variable in JavaScript is using 'var', 'let', or 'const'."
+        },
+        {
+            "questionText": "Which of the following is a valid JavaScript data type?",
+            "options": [
+                "integer",
+                "character",
+                "string",
+                "real"
+            ],
+            "correctOption": "string",
+            "explanation": "JavaScript includes data types like string, number, boolean, object, and undefined."
+        },
+        {
+            "questionText": "What is the output of \\( typeof null \\)?",
+            "options": [
+                "'null'",
+                "'undefined'",
+                "'object'",
+                "'boolean'"
+            ],
+            "correctOption": "'object'",
+            "explanation": "In JavaScript, \\( typeof null \\) returns 'object' due to a bug in the language."
+        },
+        {
+            "questionText": "Which method is used to add an element at the end of an array?",
+            "options": [
+                "push()",
+                "pop()",
+                "shift()",
+                "unshift()"
+            ],
+            "correctOption": "push()",
+            "explanation": "The push() method adds an element to the end of an array."
+        },
+        {
+            "questionText": "How do you write a single-line comment in JavaScript?",
+            "options": [
+                "/* comment */",
+                "// comment",
+                "<!-- comment -->",
+                "' comment"
+            ],
+            "correctOption": "// comment",
+            "explanation": "Single-line comments in JavaScript start with //."
+        },
+        {
+            "questionText": "Which operator is used to assign a value to a variable?",
+            "options": [
+                "=",
+                "==",
+                "===",
+                "=>"
+            ],
+            "correctOption": "=",
+            "explanation": "The '=' operator is used for assignment in JavaScript."
+        },
+        {
+            "questionText": "What is the correct syntax for a function declaration in JavaScript?",
+            "options": [
+                "function myFunction() {}",
+                "func myFunction() {}",
+                "myFunction function() {}",
+                "def myFunction() {}"
+            ],
+            "correctOption": "function myFunction() {}",
+            "explanation": "Functions are declared using the 'function' keyword in JavaScript."
+        },
+        {
+            "questionText": "Which of the following is a JavaScript framework?",
+            "options": [
+                "React",
+                "Django",
+                "Laravel",
+                "Flask"
+            ],
+            "correctOption": "React",
+            "explanation": "React is a popular JavaScript library for building user interfaces."
+        },
+        {
+            "questionText": "What does '===' mean in JavaScript?",
+            "options": [
+                "Assignment",
+                "Equality comparison",
+                "Strict equality comparison",
+                "Arrow function"
+            ],
+            "correctOption": "Strict equality comparison",
+            "explanation": "'===' checks for strict equality, including both value and type."
+        },
+        {
+            "questionText": "Which method is used to convert a JSON string to a JavaScript object?",
+            "options": [
+                "JSON.stringify()",
+                "JSON.parse()",
+                "JSON.convert()",
+                "JSON.toObject()"
+            ],
+            "correctOption": "JSON.parse()",
+            "explanation": "The JSON.parse() method converts a JSON string into a JavaScript object."
+        },
+        {
+            "questionText": "What does the 'this' keyword refer to in JavaScript?",
+            "options": [
+                "The global object",
+                "The current function",
+                "The current object",
+                "The previous object"
+            ],
+            "correctOption": "The current object",
+            "explanation": "In most cases, 'this' refers to the object that is executing the current function."
+        },
+        {
+            "questionText": "How can you create an object in JavaScript?",
+            "options": [
+                "let obj = Object.create();",
+                "let obj = new Object();",
+                "let obj = {};",
+                "All of the above"
+            ],
+            "correctOption": "All of the above",
+            "explanation": "Objects can be created in multiple ways in JavaScript."
+        },
+        {
+            "questionText": "Which array method removes the last element from an array?",
+            "options": [
+                "push()",
+                "pop()",
+                "slice()",
+                "splice()"
+            ],
+            "correctOption": "pop()",
+            "explanation": "The pop() method removes the last element from an array."
+        },
+        {
+            "questionText": "What is the output of \\( '5' + 3 \\)?",
+            "options": [
+                "8",
+                "'53'",
+                "Error",
+                "'5'"
+            ],
+            "correctOption": "'53'",
+            "explanation": "The '+' operator concatenates strings, so '5' + 3 becomes '53'."
+        },
+        {
+            "questionText": "How do you check if a variable \\( x \\) is not equal to 10?",
+            "options": [
+                "x != 10",
+                "x !== 10",
+                "x <> 10",
+                "Both 'x != 10' and 'x !== 10'"
+            ],
+            "correctOption": "Both 'x != 10' and 'x !== 10'",
+            "explanation": "'!=' checks for inequality, and '!==' checks for strict inequality."
+        },
+        {
+            "questionText": "What does the 'length' property of an array return?",
+            "options": [
+                "The number of elements in the array",
+                "The size of each element",
+                "The maximum index",
+                "Undefined"
+            ],
+            "correctOption": "The number of elements in the array",
+            "explanation": "'length' returns the number of elements in an array."
+        },
+        {
+            "questionText": "How do you declare a constant in JavaScript?",
+            "options": [
+                "const myVar;",
+                "let myVar;",
+                "var myVar;",
+                "constant myVar;"
+            ],
+            "correctOption": "const myVar;",
+            "explanation": "Constants are declared using the 'const' keyword in JavaScript."
+        },
+        {
+            "questionText": "Which method is used to iterate over an array?",
+            "options": [
+                "forEach()",
+                "map()",
+                "filter()",
+                "All of the above"
+            ],
+            "correctOption": "All of the above",
+            "explanation": "Methods like forEach(), map(), and filter() can all be used to iterate over arrays."
+        },
+        {
+            "questionText": "What is the output of \\( typeof NaN \\)?",
+            "options": [
+                "'NaN'",
+                "'undefined'",
+                "'object'",
+                "'number'"
+            ],
+            "correctOption": "'number'",
+            "explanation": "In JavaScript, \\( NaN \\) is of type 'number'."
+        },
+        {
+            "questionText": "What is the result of \\( 0.1 + 0.2 === 0.3 \\)?",
+            "options": [
+                "true",
+                "false",
+                "Error",
+                "undefined"
+            ],
+            "correctOption": "false",
+            "explanation": "Due to floating-point precision, \\( 0.1 + 0.2 \\) does not equal \\( 0.3 \\)."
+        }
+    ]
+}

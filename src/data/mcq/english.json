@@ -1,0 +1,224 @@
+{
+    "questions": [
+        {
+            "questionText": "What is the synonym of 'happy'?",
+            "options": [
+                "Sad",
+                "Joyful",
+                "Angry",
+                "Tired"
+            ],
+            "correctOption": "Joyful",
+            "explanation": "A synonym of 'happy' is 'joyful', meaning full of happiness or delight."
+        },
+        {
+            "questionText": "What is the antonym of 'beautiful'?",
+            "options": [
+                "Pretty",
+                "Ugly",
+                "Attractive",
+                "Charming"
+            ],
+            "correctOption": "Ugly",
+            "explanation": "An antonym of 'beautiful' is 'ugly', meaning unpleasant to look at."
+        },
+        {
+            "questionText": "What type of word is 'run'?",
+            "options": [
+                "Noun",
+                "Adjective",
+                "Verb",
+                "Adverb"
+            ],
+            "correctOption": "Verb",
+            "explanation": "'Run' is a verb, as it describes an action."
+        },
+        {
+            "questionText": "Which sentence is in the past tense?",
+            "options": [
+                "She walks to school.",
+                "She is walking to school.",
+                "She walked to school.",
+                "She will walk to school."
+            ],
+            "correctOption": "She walked to school.",
+            "explanation": "The sentence 'She walked to school.' is in the past tense."
+        },
+        {
+            "questionText": "What is the plural of 'child'?",
+            "options": [
+                "Childs",
+                "Children",
+                "Childes",
+                "Childen"
+            ],
+            "correctOption": "Children",
+            "explanation": "The correct plural form of 'child' is 'children'."
+        },
+        {
+            "questionText": "What is the past tense of 'go'?",
+            "options": [
+                "Gone",
+                "Went",
+                "Goes",
+                "Going"
+            ],
+            "correctOption": "Went",
+            "explanation": "The past tense of 'go' is 'went'."
+        },
+        {
+            "questionText": "Which of these is an example of a simile?",
+            "options": [
+                "She is as brave as a lion.",
+                "He is the king of the jungle.",
+                "The stars danced in the sky.",
+                "Her smile is sunshine."
+            ],
+            "correctOption": "She is as brave as a lion.",
+            "explanation": "A simile compares two things using 'like' or 'as', as in 'She is as brave as a lion.'"
+        },
+        {
+            "questionText": "What is the correct spelling?",
+            "options": [
+                "Definately",
+                "Definitely",
+                "Definatelyy",
+                "Definetly"
+            ],
+            "correctOption": "Definitely",
+            "explanation": "The correct spelling is 'definitely'."
+        },
+        {
+            "questionText": "What type of word is 'quickly'?",
+            "options": [
+                "Noun",
+                "Verb",
+                "Adjective",
+                "Adverb"
+            ],
+            "correctOption": "Adverb",
+            "explanation": "'Quickly' is an adverb, as it describes how an action is performed."
+        },
+        {
+            "questionText": "What is the subject in the sentence: 'The cat sat on the mat'?",
+            "options": [
+                "Cat",
+                "Sat",
+                "Mat",
+                "On"
+            ],
+            "correctOption": "Cat",
+            "explanation": "The subject of the sentence is 'cat', as it is performing the action."
+        },
+        {
+            "questionText": "Which is a question tag for 'She is coming, ___?'",
+            "options": [
+                "isn't she",
+                "doesn't she",
+                "is she",
+                "won't she"
+            ],
+            "correctOption": "isn't she",
+            "explanation": "The correct question tag is 'isn't she' because it matches the auxiliary verb in the main sentence."
+        },
+        {
+            "questionText": "What is the comparative form of 'good'?",
+            "options": [
+                "Gooder",
+                "Better",
+                "Goodest",
+                "More good"
+            ],
+            "correctOption": "Better",
+            "explanation": "The comparative form of 'good' is 'better'."
+        },
+        {
+            "questionText": "Which of these is a proper noun?",
+            "options": [
+                "City",
+                "Car",
+                "London",
+                "River"
+            ],
+            "correctOption": "London",
+            "explanation": "A proper noun is the name of a specific person, place, or thing, like 'London'."
+        },
+        {
+            "questionText": "What is the function of an adjective?",
+            "options": [
+                "Describes a noun",
+                "Describes a verb",
+                "Joins words",
+                "Shows an action"
+            ],
+            "correctOption": "Describes a noun",
+            "explanation": "An adjective describes a noun, giving more information about it."
+        },
+        {
+            "questionText": "What is an example of an interjection?",
+            "options": [
+                "Wow!",
+                "Run",
+                "Because",
+                "Quickly"
+            ],
+            "correctOption": "Wow!",
+            "explanation": "An interjection is a word that expresses emotion, such as 'Wow!'."
+        },
+        {
+            "questionText": "What is the main clause in the sentence: 'When she arrived, we had already left'?",
+            "options": [
+                "When she arrived",
+                "We had already left",
+                "She arrived",
+                "We left"
+            ],
+            "correctOption": "We had already left",
+            "explanation": "The main clause is 'We had already left', as it can stand alone as a complete thought."
+        },
+        {
+            "questionText": "What is a synonym of 'fast'?",
+            "options": [
+                "Slow",
+                "Quick",
+                "Loud",
+                "Heavy"
+            ],
+            "correctOption": "Quick",
+            "explanation": "A synonym of 'fast' is 'quick', as both mean speedy."
+        },
+        {
+            "questionText": "What type of sentence is 'Clean your room!'?",
+            "options": [
+                "Declarative",
+                "Interrogative",
+                "Imperative",
+                "Exclamatory"
+            ],
+            "correctOption": "Imperative",
+            "explanation": "An imperative sentence gives a command or request, like 'Clean your room!'"
+        },
+        {
+            "questionText": "What is a collective noun for 'a group of lions'?",
+            "options": [
+                "Pack",
+                "Swarm",
+                "Pride",
+                "Herd"
+            ],
+            "correctOption": "Pride",
+            "explanation": "A group of lions is called a 'pride'."
+        },
+        {
+            "questionText": "Which is the correct usage of 'their'?",
+            "options": [
+                "I want to visit their house.",
+                "There are many stars.",
+                "They're going to the park.",
+                "This is their's."
+            ],
+            "correctOption": "I want to visit their house.",
+            "explanation": "'Their' is a possessive pronoun indicating ownership, as in 'their house'."
+        }
+    ]
+}

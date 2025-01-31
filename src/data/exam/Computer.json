@@ -1,0 +1,272 @@
+[
+  {
+    "title": "Computer Basics",
+    "description": "Test your knowledge of basic computer concepts.",
+    "questions": [
+      {
+        "questionText": "What does CPU stand for?",
+        "options": [
+          "Central Processing Unit",
+          "Central Program Unit",
+          "Computer Personal Unit",
+          "Central Processing Unit"
+        ],
+        "correctOption": "Central Processing Unit",
+        "explanation": "CPU stands for Central Processing Unit, which is the primary component of a computer that performs most of the processing."
+      },
+      {
+        "questionText": "What is the primary function of the operating system?",
+        "options": [
+          "Manage hardware and software",
+          "Run applications",
+          "Store data",
+          "Display graphics"
+        ],
+        "correctOption": "Manage hardware and software",
+        "explanation": "The operating system is responsible for managing the computer's hardware and software resources."
+      },
+      {
+        "questionText": "Which of the following is a storage device?",
+        "options": ["Monitor", "Keyboard", "Hard Disk", "Processor"],
+        "correctOption": "Hard Disk",
+        "explanation": "A hard disk is a storage device used to store data permanently."
+      },
+      {
+        "questionText": "What is RAM used for?",
+        "options": [
+          "Storing data permanently",
+          "Processing data",
+          "Storing data temporarily",
+          "Displaying graphics"
+        ],
+        "correctOption": "Storing data temporarily",
+        "explanation": "RAM (Random Access Memory) is used to store data temporarily while the computer is running."
+      },
+      {
+        "questionText": "Which of these is a type of computer network?",
+        "options": ["Internet", "USB", "Keyboard", "Monitor"],
+        "correctOption": "Internet",
+        "explanation": "The internet is a global network of interconnected computers that can communicate with each other."
+      }
+    ],
+    "duration": 5,
+    "pointsRequired": 10,
+    "difficultyLevel": "Easy",
+    "tags": ["computer", "basics", "hardware", "software"],
+    "penaltyPerIncorrectAnswer": 0.5
+  },
+  {
+    "title": "Programming Basics",
+    "description": "Test your knowledge of basic programming concepts.",
+    "questions": [
+      {
+        "questionText": "What is the main function in C programming?",
+        "options": ["main()", "start()", "begin()", "function()"],
+        "correctOption": "main()",
+        "explanation": "In C programming, the main() function is the entry point of every program."
+      },
+      {
+        "questionText": "Which of the following is a programming language?",
+        "options": ["Python", "HTML", "CSS", "XML"],
+        "correctOption": "Python",
+        "explanation": "Python is a high-level programming language, whereas HTML, CSS, and XML are markup or styling languages."
+      },
+      {
+        "questionText": "What is a variable in programming?",
+        "options": [
+          "A fixed value",
+          "A data structure",
+          "A placeholder for data",
+          "A function"
+        ],
+        "correctOption": "A placeholder for data",
+        "explanation": "A variable is a placeholder used to store data that can be changed during the execution of the program."
+      },
+      {
+        "questionText": "Which of the following is a loop in programming?",
+        "options": ["if", "while", "return", "break"],
+        "correctOption": "while",
+        "explanation": "A 'while' loop is used to repeatedly execute a block of code as long as a given condition is true."
+      },
+      {
+        "questionText": "What does 'HTML' stand for?",
+        "options": [
+          "Hyper Text Markup Language",
+          "Hyperlinks and Text Markup Language",
+          "Home Tool Markup Language",
+          "None of the above"
+        ],
+        "correctOption": "Hyper Text Markup Language",
+        "explanation": "HTML stands for Hyper Text Markup Language, and it is used to structure web pages."
+      }
+    ],
+    "duration": 5,
+    "pointsRequired": 10,
+    "difficultyLevel": "Easy",
+    "tags": ["programming", "basics", "languages"],
+    "penaltyPerIncorrectAnswer": 0.5
+  },
+  {
+    "title": "Computer Hardware",
+    "description": "Test your knowledge of computer hardware components.",
+    "questions": [
+      {
+        "questionText": "What does the motherboard do?",
+        "options": [
+          "Stores data",
+          "Processes data",
+          "Connects all hardware components",
+          "Manages the operating system"
+        ],
+        "correctOption": "Connects all hardware components",
+        "explanation": "The motherboard connects all hardware components of a computer and allows them to communicate with each other."
+      },
+      {
+        "questionText": "Which component is considered the 'brain' of the computer?",
+        "options": ["Hard Drive", "RAM", "CPU", "Monitor"],
+        "correctOption": "CPU",
+        "explanation": "The CPU (Central Processing Unit) is considered the brain of the computer as it performs most of the processing."
+      },
+      {
+        "questionText": "What is the function of the graphics card?",
+        "options": [
+          "Control system resources",
+          "Manage data storage",
+          "Process visual data",
+          "Provide network connections"
+        ],
+        "correctOption": "Process visual data",
+        "explanation": "The graphics card is responsible for processing and rendering visual data to display images on the monitor."
+      },
+      {
+        "questionText": "Which of the following is a storage device?",
+        "options": ["CPU", "RAM", "Hard Disk", "Graphics Card"],
+        "correctOption": "Hard Disk",
+        "explanation": "The hard disk is a storage device that stores data permanently in a computer."
+      },
+      {
+        "questionText": "What does RAM stand for?",
+        "options": [
+          "Random Access Memory",
+          "Read And Memory",
+          "Random Activated Memory",
+          "Read Access Memory"
+        ],
+        "correctOption": "Random Access Memory",
+        "explanation": "RAM stands for Random Access Memory, which is used to temporarily store data for quick access during program execution."
+      }
+    ],
+    "duration": 5,
+    "pointsRequired": 5,
+    "difficultyLevel": "Medium",
+    "tags": ["computer", "hardware", "components"],
+    "penaltyPerIncorrectAnswer": 0.5
+  },
+  {
+    "title": "Computer Software",
+    "description": "Test your knowledge of different types of computer software.",
+    "questions": [
+      {
+        "questionText": "Which of these is an example of system software?",
+        "options": [
+          "Microsoft Word",
+          "Google Chrome",
+          "Windows 10",
+          "Photoshop"
+        ],
+        "correctOption": "Windows 10",
+        "explanation": "System software includes the operating system, such as Windows 10, which manages hardware and software resources."
+      },
+      {
+        "questionText": "What is an example of application software?",
+        "options": [
+          "Operating System",
+          "Microsoft Word",
+          "BIOS",
+          "Device Drivers"
+        ],
+        "correctOption": "Microsoft Word",
+        "explanation": "Application software is designed for end-users to perform specific tasks, such as word processing with Microsoft Word."
+      },
+      {
+        "questionText": "Which of these is open-source software?",
+        "options": ["Windows 10", "Android", "Microsoft Office", "Photoshop"],
+        "correctOption": "Android",
+        "explanation": "Android is an open-source mobile operating system, whereas others are proprietary software."
+      },
+      {
+        "questionText": "Which software is used for graphic design?",
+        "options": ["Microsoft Word", "Photoshop", "Google Chrome", "Notepad"],
+        "correctOption": "Photoshop",
+        "explanation": "Adobe Photoshop is a popular graphic design software used for image editing and design."
+      },
+      {
+        "questionText": "Which of these is a type of database software?",
+        "options": ["Microsoft Word", "Excel", "Oracle", "Photoshop"],
+        "correctOption": "Oracle",
+        "explanation": "Oracle is a database management system used to manage large volumes of data."
+      }
+    ],
+    "duration": 5,
+    "pointsRequired": 5,
+    "difficultyLevel": "Medium",
+    "tags": ["software", "system", "applications"],
+    "penaltyPerIncorrectAnswer": 0.5
+  },
+  {
+    "title": "Internet and Networking",
+    "description": "Test your knowledge of internet and networking concepts.",
+    "questions": [
+      {
+        "questionText": "What does IP stand for in networking?",
+        "options": [
+          "Internet Protocol",
+          "Internal Protocol",
+          "Internet Process",
+          "Interchangeable Protocol"
+        ],
+        "correctOption": "Internet Protocol",
+        "explanation": "IP stands for Internet Protocol, which is used to identify devices on a network and route data between them."
+      },
+      {
+        "questionText": "Which protocol is used to transfer files over the internet?",
+        "options": ["HTTP", "FTP", "SMTP", "POP3"],
+        "correctOption": "FTP",
+        "explanation": "FTP (File Transfer Protocol) is used to transfer files between computers over the internet."
+      },
+      {
+        "questionText": "What is a router used for?",
+        "options": [
+          "Store data",
+          "Connect devices to the internet",
+          "Display web pages",
+          "Process data"
+        ],
+        "correctOption": "Connect devices to the internet",
+        "explanation": "A router connects devices to a network and routes data between them, often providing internet access."
+      },
+      {
+        "questionText": "Which of the following is a type of network?",
+        "options": ["LAN", "WAN", "MAN", "All of the above"],
+        "correctOption": "All of the above",
+        "explanation": "LAN (Local Area Network), WAN (Wide Area Network), and MAN (Metropolitan Area Network) are all types of networks."
+      },
+      {
+        "questionText": "What does DNS stand for?",
+        "options": [
+          "Domain Name Service",
+          "Domain Name System",
+          "Direct Network Service",
+          "Dynamic Network Service"
+        ],
+        "correctOption": "Domain Name System",
+        "explanation": "DNS (Domain Name System) translates domain names into IP addresses, allowing browsers to access websites."
+      }
+    ],
+    "duration": 5,
+    "pointsRequired": 5,
+    "difficultyLevel": "Medium",
+    "tags": ["internet", "networking", "protocols"],
+    "penaltyPerIncorrectAnswer": 0.5
+  }
+]

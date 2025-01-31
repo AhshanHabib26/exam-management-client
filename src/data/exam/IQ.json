@@ -1,0 +1,145 @@
+[
+  {
+    "title": "IQ (Intelligence Quotient) - Set 1",
+    "description": "IQ বা বুদ্ধিমত্তা পরীক্ষা করে আপনার মেধা যাচাই করুন।",
+    "questions": [
+      {
+        "questionText": "যে সংখ্যা সিকুয়েন্সটি দেওয়া হয়েছে তাতে পরবর্তী সংখ্যা কী হবে? 2, 6, 12, 20, ?",
+        "options": ["30", "35", "28", "25"],
+        "correctOption": "30",
+        "explanation": "সংখ্যাগুলি পরপর 4, 6, 8, 10 যোগ হচ্ছে। অতএব, পরবর্তী সংখ্যা হবে 20 + 10 = 30।"
+      },
+      {
+        "questionText": "একটি বাক্যে বা শব্দে কোন শব্দটি অযথা ব্যবহার করা হয়েছে? Apple, Orange, Banana, Carrot",
+        "options": ["Apple", "Orange", "Banana", "Carrot"],
+        "correctOption": "Carrot",
+        "explanation": "Apple, Orange, এবং Banana হল ফল, কিন্তু Carrot একটি শাকসবজি।"
+      },
+      {
+        "questionText": "কোনটি সবচেয়ে বড় সংখ্যা? 4^3, 5^3, 6^3, 7^3",
+        "options": ["4^3", "5^3", "6^3", "7^3"],
+        "correctOption": "7^3",
+        "explanation": "7^3 = 343, এটি 4^3 (64), 5^3 (125), এবং 6^3 (216) থেকে বড়।"
+      },
+      {
+        "questionText": "কোনো ব্যক্তির জন্য এই বাক্যটি কেমন হবে? একটি কুকুর একটি প্রাণী, এবং একটি গরু?",
+        "options": ["একটি প্রাণী", "একটি গাছ", "একটি ইট", "একটি পাখি"],
+        "correctOption": "একটি প্রাণী",
+        "explanation": "কুকুর একটি প্রাণী এবং গরু-ও একটি প্রাণী।"
+      },
+      {
+        "questionText": "চিত্রের মধ্যে লুকানো অর্থটি বের করুন: (একটি ত্রিভুজ, একটি বর্গ, এবং একটি বৃত্ত দেওয়া আছে)",
+        "options": [
+          "বিকল্প আকার",
+          "সমস্যা সলভিং",
+          "জ্যামিতিক সম্পর্ক",
+          "গ্রাফ"
+        ],
+        "correctOption": "জ্যামিতিক সম্পর্ক",
+        "explanation": "ত্রিভুজ, বর্গ এবং বৃত্তের মধ্যে জ্যামিতিক সম্পর্ক রয়েছে, যা IQ পরীক্ষার সাধারণ বৈশিষ্ট্য।"
+      }
+    ],
+    "duration": 5,
+    "pointsRequired": 5,
+    "difficultyLevel": "Medium",
+    "tags": ["IQ", "logic", "reasoning"],
+    "penaltyPerIncorrectAnswer": 1
+  },
+  {
+    "title": "IQ (Intelligence Quotient) - Set 2",
+    "description": "IQ বা বুদ্ধিমত্তা পরীক্ষা করে আপনার মেধা যাচাই করুন।",
+    "questions": [
+      {
+        "questionText": "5, 11, 17, 23, ? এর পরবর্তী সংখ্যা কী হবে?",
+        "options": ["29", "30", "31", "32"],
+        "correctOption": "29",
+        "explanation": "সংখ্যাগুলি 6 দ্বারা বাড়ছে, অতএব পরবর্তী সংখ্যা হবে 23 + 6 = 29।"
+      },
+      {
+        "questionText": "যে শব্দটি অন্যদের থেকে আলাদা তা চিহ্নিত করুন: Coffee, Tea, Milk, Book",
+        "options": ["Coffee", "Tea", "Milk", "Book"],
+        "correctOption": "Book",
+        "explanation": "Coffee, Tea, এবং Milk পানীয়, কিন্তু Book একটি বস্তু।"
+      },
+      {
+        "questionText": "কোনটি সবচেয়ে বড় সংখ্যার সমান হবে? 8^2, 7^3, 6^4, 5^5",
+        "options": ["8^2", "7^3", "6^4", "5^5"],
+        "correctOption": "5^5",
+        "explanation": "5^5 = 3125, এটি 8^2 (64), 7^3 (343), এবং 6^4 (1296) থেকে বড়।"
+      },
+      {
+        "questionText": "পাইথাগোরাসের সূত্রে কোন তিনটি সংখ্যার সম্পর্ক বোঝায়?",
+        "options": [
+          "বিভাজ্য সংখ্যা",
+          "পদার্থবিদ্যা সংখ্যা",
+          "কণিকা সংখ্যা",
+          "আয়তক্ষেত্রের সংখ্যা"
+        ],
+        "correctOption": "আয়তক্ষেত্রের সংখ্যা",
+        "explanation": "পাইথাগোরাসের সূত্রে একটি ত্রিভুজের তিনটি পার্শ্বের সম্পর্ক ব্যাখ্যা করা হয় (a² + b² = c²)।"
+      },
+      {
+        "questionText": "বিশ্বের মধ্যে সবচেয়ে কম দূরত্বের দুটি শহর কোনটি?",
+        "options": [
+          "ক্যালিফোর্নিয়া ও নিউ ইয়র্ক",
+          "মুম্বাই ও দুবাই",
+          "প্যারিস ও লন্ডন",
+          "ঢাকা ও কলকাতা"
+        ],
+        "correctOption": "ঢাকা ও কলকাতা",
+        "explanation": "ঢাকা এবং কলকাতা একে অপর থেকে খুব কাছাকাছি অবস্থিত।"
+      }
+    ],
+    "duration": 5,
+    "pointsRequired": 5,
+    "difficultyLevel": "Medium",
+    "tags": ["IQ", "logic", "reasoning"],
+    "penaltyPerIncorrectAnswer": 1
+  },
+  {
+    "title": "IQ (Intelligence Quotient) - Set 3",
+    "description": "IQ বা বুদ্ধিমত্তা পরীক্ষা করে আপনার মেধা যাচাই করুন।",
+    "questions": [
+      {
+        "questionText": "প্রথমে 3 যোগ করুন, তারপর 4 গুণ করুন, পরবর্তী সংখ্যাটি হবে 16, তাহলে প্রথম সংখ্যা কী?",
+        "options": ["3", "2", "4", "1"],
+        "correctOption": "2",
+        "explanation": "প্রথমে 2-এ 3 যোগ করলে 5 হবে, তারপর 4 গুণ করলে 20 হবে।"
+      },
+      {
+        "questionText": "যে শব্দটি অন্যদের থেকে আলাদা তা চিহ্নিত করুন: Square, Triangle, Circle, Rectangle",
+        "options": ["Square", "Triangle", "Circle", "Rectangle"],
+        "correctOption": "Circle",
+        "explanation": "Square, Triangle এবং Rectangle হল চতুর্ভুজ আকার, কিন্তু Circle একটি বৃত্তাকার আকার।"
+      },
+      {
+        "questionText": "আপনার সামনে একে অপরের সাথে সম্পর্কিত 3 বল রাখা আছে: 2, 4, 6. পরবর্তী বলটি কত হবে?",
+        "options": ["8", "7", "10", "9"],
+        "correctOption": "8",
+        "explanation": "সংখ্যাগুলি 2 দ্বারা বাড়ছে, তাই পরবর্তী সংখ্যা হবে 6 + 2 = 8।"
+      },
+      {
+        "questionText": "এটি একটি উদাহরণ যেখানে কোন প্যাটার্ন বা নিয়ম নেই?",
+        "options": [
+          "1, 2, 3, 4",
+          "5, 10, 15, 20",
+          "7, 14, 21, 28",
+          "6, 12, 18, 23"
+        ],
+        "correctOption": "6, 12, 18, 23",
+        "explanation": "এটি 6 থেকে শুরু হলেও পরবর্তী সংখ্যাটি 6 যোগ করার নিয়ম অনুসরণ করছে না।"
+      },
+      {
+        "questionText": "আপনি যদি একটি চৌকোণ বা স্কোয়ার আকৃতির প্যানেল তৈরি করেন, তাহলে কতটি সোজা রেখা হবে?",
+        "options": ["4", "6", "8", "10"],
+        "correctOption": "4",
+        "explanation": "একটি স্কোয়ার আকৃতির প্যানেলে 4টি সোজা রেখা থাকে।"
+      }
+    ],
+    "duration": 5,
+    "pointsRequired": 5,
+    "difficultyLevel": "Medium",
+    "tags": ["IQ", "logic", "reasoning"],
+    "penaltyPerIncorrectAnswer": 1
+  }
+]
