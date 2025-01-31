@@ -16,6 +16,7 @@ export default {
   			TextPrimary: '#EDFFF0',
   			TextSecondary: '#2961C4',
   			TextThird: '#F97316',
+  			TextFourth: '#111827',
   			TextPrimaryHover: '#2961C4',
   			sidebar: {
   				DEFAULT: 'hsl(var(--sidebar-background))',

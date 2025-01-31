@@ -10,11 +10,14 @@ import Container from "@/lib/Container";
 import SearchBtn from "@/components/client/SearchBtn";
 import QuizListCategory from "@/components/client/Quiz/QuizListCategory";
 import RecentQuiz from "@/components/client/Quiz/RecentQuiz";
+import QuizSubject from "@/components/client/Quiz/QuizSubject";
+import { Button } from "@/components/ui/button";
 
 const QuizPage = () => {
   const dispatch = useDispatch();
   const [page, setPage] = useState(1);
-  const [selectedQuizCategoryId, setSelectedQuizCategoryId] = useState("");
+  const [selectedQuizCategoryId, setSelectedQuizCategoryId] = useState<string | null>("");
+  const [selectedQuizSubjectId, setSelectedQuizSubjectId] = useState<string | null>("");
   const limit = 10;
   const [searchTerm, setSearchTerm] = useState("");
   const { data, isLoading } = useGetAllQuizQuery(
@@ -22,6 +25,7 @@ const QuizPage = () => {
       page,
       limit,
       category: selectedQuizCategoryId || undefined,
+      subject: selectedQuizSubjectId || undefined,
       searchTerm: searchTerm.trim() ? searchTerm : undefined,
     },
     {
@@ -31,10 +35,15 @@ const QuizPage = () => {
 
   const total = data?.meta?.total ?? 0;
 
-
   useEffect(() => {
     dispatch(setLoading(isLoading));
   }, [isLoading, dispatch]);
+
+  const handleReset = () => {
+    setSelectedQuizCategoryId("")
+    setSelectedQuizSubjectId("")
+    setSearchTerm("")
+  }
 
   return (
     <div className="mt-20 lg:mt-24 min-h-screen">
@@ -77,7 +86,21 @@ const QuizPage = () => {
                 <RecentQuiz />
                 <QuizListCategory
                   setSelectedQuizCategoryId={setSelectedQuizCategoryId}
+                  selectedQuizCategoryId={selectedQuizCategoryId}
                 />
+                <div className="my-5">
+                  <QuizSubject
+                    setSelectedQuizSubjectId={setSelectedQuizSubjectId}
+                    selectedQuizSubjectId={selectedQuizSubjectId}
+                    selectedQuizCategoryId={selectedQuizCategoryId}
+
+                  />
+                </div>
+                <div className="mt-5 flex items-end justify-end">
+                  {
+                    selectedQuizCategoryId || selectedQuizSubjectId || searchTerm ? <Button size="lg" className="text-lg font-light bg-BgPrimary hover:bg-BgPrimaryHover" onClick={handleReset}>Reset Filter</Button> : null
+                  }
+                </div>
               </div>
             </div>
           )}

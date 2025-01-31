@@ -71,6 +71,9 @@ export type TQuiz = {
   category?: {
     name: string;
   };
+  subject?: {
+    name: string;
+  };
 };
 
 export type TQuizProps = {

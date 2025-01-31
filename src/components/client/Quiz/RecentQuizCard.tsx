@@ -10,13 +10,13 @@ interface Props extends TQuizProps {
 const RecentQuizCard: React.FC<Props> = ({ quiz, isLast }) => {
   return (
     <div
-      className={`text-gray-300 ${
-        isLast ? "" : "border-b border-gray-800 border-dashed"
+      className={`text-TextFourth ${
+        isLast ? "" : "border-b border-gray-300 border-dashed"
       }`}
     >
       <Link to={`/quiz/quiz-details/${quiz?._id}`}>
         <div className="flex items-center justify-between">
-          <h1 className="my-1 text-[16px] font-light hover:text-TextPrimary">
+          <h1 className="my-1 text-[16px] font-light hover:text-TextSecondary">
             {quiz?.title}
           </h1>
           <div>
@@ -28,7 +28,7 @@ const RecentQuizCard: React.FC<Props> = ({ quiz, isLast }) => {
                   </div>
                 ) : (
                   <div>
-                    <FaAngleRight className="text-gray-300" size={15} />
+                    <FaAngleRight className="text-TextFourth" size={15} />
                   </div>
                 )}
               </div>

@@ -1,43 +1,22 @@
-import { useEffect, useState } from "react";
-import { useDispatch } from "react-redux";
+import { useEffect } from "react";
 import { setLoading } from "@/redux/features/global/globalSlice";
-import { useGetAllQuizCategoriesQuery } from "@/redux/features/quiz/category/categoryApi";
+import { useDispatch } from "react-redux";
 import { TQuizCategory } from "@/types/common.data";
+import { Checkbox } from "@/components/ui/checkbox";
+import { ScrollArea } from "@/components/ui/scroll-area";
+import { useGetAllQuizCategoriesQuery } from "@/redux/features/quiz/category/categoryApi";
 
-const bgColor = [
-  "bg-red-100",
-  "bg-yellow-100",
-  "bg-green-100",
-  "bg-gray-100",
-  "bg-orange-100",
-  "bg-blue-100",
-  "bg-teal-100",
-  "bg-pink-100",
-  "bg-purple-100",
-];
 
-const bgHoverColor = [
-  "bg-red-500",
-  "bg-yellow-500",
-  "bg-green-500",
-  "bg-gray-500",
-  "bg-orange-500",
-  "bg-blue-500",
-  "bg-teal-500",
-  "bg-pink-500",
-  "bg-purple-500",
-];
-
-type QuizCategoryProps = {
-  setSelectedQuizCategoryId: (id: string) => void;
+type MCQCategoryProps = {
+  setSelectedQuizCategoryId: (id: string | null) => void;
+  selectedQuizCategoryId?: string | null;
 };
 
-const QuizListCategory: React.FC<QuizCategoryProps> = ({
+const QuizListCategory: React.FC<MCQCategoryProps> = ({
   setSelectedQuizCategoryId,
+  selectedQuizCategoryId,
 }) => {
   const dispatch = useDispatch();
-  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
-
   const { data, isLoading } = useGetAllQuizCategoriesQuery(
     {},
     {
@@ -45,54 +24,44 @@ const QuizListCategory: React.FC<QuizCategoryProps> = ({
     }
   );
 
-  // Update global loading state
   useEffect(() => {
     dispatch(setLoading(isLoading));
   }, [isLoading, dispatch]);
 
+  // Function to select/deselect category
+  const handleCategoryChange = (categoryId: string) => {
+    if (selectedQuizCategoryId === categoryId) {
+      setSelectedQuizCategoryId(null); // Deselect if clicked again
+    } else {
+      setSelectedQuizCategoryId(categoryId); // Select new category
+    }
+  };
+
   return (
-    <div className="shadow-md border-[0.5px] border-gray-800 rounded-md">
-      <div className="bg-gray-900 rounded-t-md text-gray-300 p-2 shadow-sm">
-        <h1 className="text-lg hind-siliguri-semibold ml-2">Exam Topics</h1>
+    <div className="shadow-md border-[0.5px] border-gray-300 rounded-md">
+      <div className="bg-BgPrimary rounded-t-md text-gray-300 p-2 shadow-sm">
+        <h1 className="text-lg font-semibold ml-2">Exam Category</h1>
       </div>
       <div className="p-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
-          {data?.data && data.data.length > 0 ? (
-            data.data.map((category: TQuizCategory, index) => {
-              const bgColorIndex = index % bgColor.length;
-              const bgHoverColorIndex = index % bgHoverColor.length;
-
-              return (
-                <div key={category._id}>
-                  <div
-                    onClick={() => setSelectedQuizCategoryId(category?._id)}
-                    className={`flex items-center justify-between p-4 poppins-regular rounded-lg cursor-pointer ${
-                      hoveredIndex === index
-                        ? bgHoverColor[bgHoverColorIndex]
-                        : bgColor[bgColorIndex]
-                    }`}
-                    onMouseEnter={() => setHoveredIndex(index)}
-                    onMouseLeave={() => setHoveredIndex(null)}
-                  >
-                    <img
-                      className="w-[30px] h-[30px]"
-                      src={category.imageUrl || "/default-image.png"}
-                      alt={category.name || "Category"}
-                    />
-                    <h1
-                      className={`text-lg ${
-                        hoveredIndex === index ? "text-white" : "text-[#001D25]"
-                      }`}
-                    >
-                      {category.name}
-                    </h1>
-                  </div>
-                </div>
-              );
-            })
-          ) : (
-            <p>No quiz category available.</p>
-          )}
+        <div>
+          <ScrollArea className="h-[320px]">
+            {data?.data?.map((category: TQuizCategory) => (
+              <div className="items-top flex space-x-2 mb-2" key={category?._id}>
+                <Checkbox
+                  className="size-4"
+                  id={category?._id}
+                  checked={selectedQuizCategoryId === category?._id}
+                  onCheckedChange={() => handleCategoryChange(category?._id)}
+                />
+                <label
+                  htmlFor={category?._id}
+                  className="text-lg font-light leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                >
+                  {category?.name}
+                </label>
+              </div>
+            ))}
+          </ScrollArea>
         </div>
       </div>
     </div>
