@@ -17,33 +17,33 @@ const PackageCard: React.FC<TPackageProps> = ({ service, isCheckout }) => {
   const daysLeft = moment(service?.offerEndDate).diff(moment(), "days");
   return (
     <div className=" shadow-md bg-gray-900">
-      <h1 className="p-2 bg-gray-800 text-center text-xl hind-siliguri-regular text-white">
+      <h1 className="p-2 bg-BgPrimaryHover text-center text-xl hind-siliguri-regular text-white">
         {service?.title}
       </h1>
       <div className="flex items-center justify-center my-2">
-        <p className="text-lg hind-siliguri-light mr-2">Package Price : </p>
-        <div className="flex items-center">
+        <p className="text-lg text-white hind-siliguri-light mr-2">Package Price : </p>
+        <div className="flex items-center text-white">
           <p className="text-lg hind-siliguri-light mr-2">TK</p>
           {service?.isOfferActive ? (
             <h1 className="text-xl hind-siliguri-light line-through text-red-500">
               {service?.price}
             </h1>
           ) : (
-            <h1 className="text-2xl font-medium">{service?.price}</h1>
+            <h1 className="text-2xl font-medium text-white">{service?.price}</h1>
           )}
         </div>
         <div className="flex items-center">
           {service?.isOfferActive ? (
-            <h1 className="text-2xl ml-2 font-medium">{service?.offerPrice}</h1>
+            <h1 className="text-2xl ml-2 font-medium text-white">{service?.offerPrice}</h1>
           ) : null}
         </div>
       </div>
-      <hr className="border-[0.5] border-gray-700 border-dashed" />
+      <hr className="border-[0.5] border-gray-400 border-dashed" />
 
       <div className="my-7 relative">
         <div className="flex items-center justify-center gap-2">
           <img src={DiamondImg} alt="" className=" w-[40px]" />
-          <p className="text-4xl font-semibold">{service?.points}</p>
+          <p className="text-4xl font-semibold text-white">{service?.points}</p>
         </div>
         {service?.isOfferActive ? (
           <div className="text-center mt-2 absolute right-0 top-14">
@@ -66,7 +66,7 @@ const PackageCard: React.FC<TPackageProps> = ({ service, isCheckout }) => {
           <div>
             <button
               className="bg-gray-800 hover:bg-BgPrimaryHover inline-block w-full text-center text-lg hind-siliguri-regular text-white p-2 rounded-md"
-              onClick={() => handleEnrollClick(service._id)}
+              onClick={() => handleEnrollClick(service?._id)}
             >
               Buy Now
             </button>

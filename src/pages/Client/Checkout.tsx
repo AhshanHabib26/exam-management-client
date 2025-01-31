@@ -41,7 +41,7 @@ const CheckoutPage = () => {
                 isCheckout={true}
               />
             </div>
-            <div className="border border-gray-900 rounded-lg p-4">
+            <div className="border border-gray-300 rounded-lg p-4">
               <div>
                 <div className="flex items-center justify-between text-lg font-medium">
                   <h1>Sub Total</h1>
@@ -54,19 +54,20 @@ const CheckoutPage = () => {
                   <h1>Discount</h1>
                   <div className="flex items-center gap-1">
                     <p>ট</p>
-                    <p>{service?.price - service?.offerPrice}</p>
+                    <p>{service?.isOfferActive ? service?.price - service?.offerPrice : "0"}</p>
                   </div>
+
                 </div>
-                <Separator className="bg-gray-900 my-4" />
+                <Separator className="bg-gray-300 my-4" />
                 <div className="flex items-center justify-between text-lg font-medium">
                   <h1>Payable Amount</h1>
                   <div className="flex items-center gap-1">
                     <p>ট</p>
-                    <p>{service?.offerPrice}</p>
+                    <p>{service?.isOfferActive ? service?.offerPrice : service?.price}</p>
                   </div>
                 </div>
               </div>
-              <Separator className="bg-gray-900 my-4" />
+              <Separator className="bg-gray-300 my-4" />
 
               <div>
                 <h1 className="text-lg font-light">Select Payment Method:</h1>
@@ -91,7 +92,7 @@ const CheckoutPage = () => {
                   <MannualPayment service={service} />
                 ) : (
                   <div className="flex items-center justify-center mt-20">
-                    <FaCreditCard size={50} className="text-gray-800" />
+                    <FaCreditCard size={50} className="text-gray-400" />
                   </div>
                 )}
               </div>

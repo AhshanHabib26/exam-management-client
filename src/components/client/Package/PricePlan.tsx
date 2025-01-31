@@ -16,11 +16,11 @@ const PricePlan = () => {
   return (
     <div className="">
       <div className="flex items-center justify-center flex-col">
-        <h1 className="text-4xl lg:text-5xl font-semibold bg-gradient-to-b from-white to-transparent bg-clip-text text-transparent">
+        <h1 className="text-4xl lg:text-5xl font-semibold text-TextFourth">
           Plans and Pricing
         </h1>
 
-        <p className="text-center text-[16px] lg:text-lg max-w-[60ch] text-gray-300 mt-1">
+        <p className="text-center text-[16px] lg:text-lg max-w-[70ch] text-gray-600 mt-1">
           Select from best plans, ensuring a perfect match. Need more or less?
           Customize your subscription for a seamless fit!{" "}
         </p>

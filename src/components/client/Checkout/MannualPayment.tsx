@@ -102,11 +102,11 @@ const MannualPayment: React.FC<TPackageProps> = ({ service }) => {
   };
 
   return (
-    <div className="border border-gray-800 p-4 mt-5 rounded-lg">
+    <div className="border border-gray-300 p-4 mt-5 rounded-lg">
       <div>
         <label htmlFor="paymentmethod">Payment Method</label>
         <Select onValueChange={handleSelectChange}>
-          <SelectTrigger className="h-[40px] border-gray-800">
+          <SelectTrigger className="h-[40px] border-gray-300">
             <SelectValue placeholder="Choose Payment Method" />
           </SelectTrigger>
           <SelectContent>
@@ -131,7 +131,7 @@ const MannualPayment: React.FC<TPackageProps> = ({ service }) => {
           autoComplete="off"
           value={formData.phoneNumber}
           onChange={handleInputChange}
-          className="h-[40px] border-gray-800"
+          className="h-[40px] border-gray-300"
           placeholder="Enter Reference Mobile Number"
           required
         />
@@ -147,7 +147,7 @@ const MannualPayment: React.FC<TPackageProps> = ({ service }) => {
           value={formData.transactionId}
           autoComplete="off"
           onChange={handleInputChange}
-          className="h-[40px] border-gray-800"
+          className="h-[40px] border-gray-300"
           placeholder="Enter Transaction ID"
           required
         />
@@ -163,7 +163,7 @@ const MannualPayment: React.FC<TPackageProps> = ({ service }) => {
           value={formData.payableAmount}
           autoComplete="off"
           onChange={handleInputChange}
-          className="h-[40px] border-gray-800"
+          className="h-[40px] border-gray-300"
           placeholder="Enter the Amount Paid."
           required
         />

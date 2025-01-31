@@ -65,17 +65,17 @@ const FAQPricePlan = () => {
   return (
     <div className=" py-20">
         <div className="flex items-center justify-center flex-col">
-          <h1 className="text-5xl font-semibold bg-gradient-to-b from-white to-transparent bg-clip-text text-transparent">
+          <h1 className="text-4xl font-semibold text-TextFourth">
             Frequently Asked Questions
           </h1>
         </div>
-        <div className=" max-w-5xl mx-auto mt-16">
+        <div className=" max-w-5xl mx-auto mt-8">
           {faqData.map((faq) => (
             <div key={faq.id}>
               <Accordion type="single" collapsible>
                 <AccordionItem value={faq.id}>
                   <AccordionTrigger>
-                    <h1 className="text-lg font-medium hover:text-TextPrimary">
+                    <h1 className="text-lg font-medium hover:text-TextSecondary">
                       {faq.question}
                     </h1>
                   </AccordionTrigger>
