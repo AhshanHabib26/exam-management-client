@@ -5,6 +5,8 @@ import { useDispatch } from "react-redux";
 import { Link, useParams } from "react-router-dom";
 import { MathJax } from "better-react-mathjax";
 import { useGetSubmissionQuizQuery } from "@/redux/features/quiz/submission/submissionApi";
+import { useAppSelector } from "@/redux/hooks";
+import { selectCurrentUser } from "@/redux/features/auth/authSlice";
 
 // Define TypeScript interfaces
 interface Answer {
@@ -32,6 +34,7 @@ interface QuizSubmissionData {
 
 const QuizSubmissionPage = () => {
   const dispatch = useDispatch();
+  const user = useAppSelector(selectCurrentUser);
   const { id } = useParams<string>();
   const { data, isLoading } = useGetSubmissionQuizQuery(id, {
     refetchOnMountOrArgChange: false,
@@ -52,12 +55,18 @@ const QuizSubmissionPage = () => {
     return question && ans?.selectedOption === question?.correctOption;
   }).length;
 
+
+  const roleToDashboard: Record<string, string> = {
+    admin: "/admin/dashboard/my-submissions",
+    user: "/user/dashboard",
+  };
+
   return (
     <div>
       <div className="mt-20 lg:mt-24 max-w-6xl mx-auto min-h-screen">
         <Container>
-          <div className=" p-6 rounded-lg shadow-lg border border-gray-800">
-            <h1 className="text-xl md:text-2xl  lg:text-3xl text-gray-300 font-bold mb-4 text-center flex items-center justify-center">
+          <div className=" p-6 rounded-lg shadow-lg border border-gray-300">
+            <h1 className="text-xl md:text-2xl  lg:text-3xl text-TextFourth font-bold mb-4 text-center flex items-center justify-center">
               <span className="mr-1">📚</span>
               Quiz Submission Details
             </h1>
@@ -75,9 +84,9 @@ const QuizSubmissionPage = () => {
                 return (
                   <div
                     key={question?._id}
-                    className="border-b border-gray-800 pb-4"
+                    className="border-b border-gray-300 pb-4"
                   >
-                    <h2 className="text-lg font-normal mb-2 text-gray-300">
+                    <h2 className="text-lg font-normal mb-2 text-TextThird">
                       Q {index + 1}:{" "}
                       <MathJax inline>{question?.questionText}</MathJax>
                     </h2>
@@ -92,7 +101,7 @@ const QuizSubmissionPage = () => {
                         ) {
                           optionClasses += " bg-red-200 text-red-700";
                         } else {
-                          optionClasses += " text-gray-300";
+                          optionClasses += "text-TextFourth";
                         }
                         return (
                           <li key={i} className={`${optionClasses}  mb-2`}>
@@ -111,7 +120,7 @@ const QuizSubmissionPage = () => {
                       </p>
                     )}
                     {question?.explanation ? (
-                      <p className="mt-2 text-gray-300">
+                      <p className="mt-2 text-TextFourth">
                         <strong>Explanation:</strong>{" "}
                         <MathJax inline>{question?.explanation}</MathJax>
                       </p>
@@ -120,22 +129,30 @@ const QuizSubmissionPage = () => {
                 );
               })}
             </div>
-            <div className="mt-6 bg-gray-900 p-4 rounded-md flex items-start lg:items-center lg:justify-between flex-col lg:flex-row justify-start">
-              <p className="text-lg font-semibold">
+            <div className="mt-6 bg-BgPrimaryHover p-4 rounded-md flex items-start lg:items-center lg:justify-between flex-col lg:flex-row justify-start">
+              <p className="text-lg font-semibold text-white">
                 Total Questions: {questions?.length}
               </p>
-              <p className="text-lg font-semibold">Total Marks: {totalMarks}</p>
-              <p className="text-lg font-semibold">
+              <p className="text-lg font-semibold text-white">Total Marks: {totalMarks}</p>
+              <p className="text-lg font-semibold text-white">
                 Correct Answers: {correctAnswersCount}
               </p>
             </div>
-            <div className="flex items-end justify-end">
+            <div className="flex items-end justify-end gap-2">
               <Link
                 className=" bg-BgPrimary hover:bg-BgPrimaryHover px-3 py-2 text-white rounded-sm mt-4"
                 to="/exam"
               >
                 Back to Exam Page
               </Link>
+
+              {user?.role && roleToDashboard[user.role] ? (
+              <Link
+                className=" bg-BgPrimaryHover hover:bg-BgPrimary px-3 py-2 text-white rounded-sm mt-4"
+                to={roleToDashboard[user.role]}
+              >
+                Go to Dashboard
+              </Link> ) : null}
             </div>
           </div>
         </Container>

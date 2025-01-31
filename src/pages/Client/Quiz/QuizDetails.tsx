@@ -209,7 +209,7 @@ const QuizDetails = () => {
         <Container>
           <div className="max-w-5xl mx-auto w-full ">
             {!isToggled && data?.data && (
-              <div className="border border-gray-800 rounded-md p-4">
+              <div className="border border-gray-300 rounded-md p-4">
                 <div className="flex flex-col lg:flex-row gap-5">
                   <div className="flex items-center lg:items-start justify-center">
                     <img
@@ -219,60 +219,60 @@ const QuizDetails = () => {
                     />
                   </div>
                   <div className="w-full">
-                    <h1 className="flex items-center gap-2 text-md lg:text-lg font-medium text-gray-300">
+                    <h1 className="flex items-center gap-2 text-TextFourth text-md lg:text-lg font-medium">
                       Title:{" "}
-                      <span className=" font-light">{data?.data?.title}</span>
+                      <span className=" font-light text-TextFourth">{data?.data?.title}</span>
                     </h1>
 
-                    <div className="flex items-center flex-wrap gap-2 text-md lg:text-lg font-medium text-gray-300">
+                    <div className="flex items-center flex-wrap gap-2 text-md lg:text-lg font-medium text-TextFourth">
                       Description:{" "}
                       {data?.data?.description && (
-                        <p className="font-light">{data?.data?.description}</p>
+                        <p className="font-light text-TextFourth">{data?.data?.description}</p>
                       )}
                     </div>
-                    <p className="flex items-center gap-2 text-md lg:text-lg font-medium text-gray-300">
+                    <p className="flex items-center gap-2 text-md lg:text-lg font-medium text-TextFourth">
                       Duration:{" "}
-                      <span className="font-light">
+                      <span className="font-light text-TextFourth">
                         {data?.data?.duration} Minutes
                       </span>
                     </p>
 
-                    <p className="flex items-center gap-2 text-md lg:text-lg font-medium text-gray-300">
+                    <p className="flex items-center gap-2 text-md lg:text-lg font-medium text-TextFourth">
                       Error Penalty:
                       <span className="font-light text-red-500">
                         {data?.data?.penaltyPerIncorrectAnswer}
                       </span>
                     </p>
 
-                    <p className="flex items-center gap-2 text-md lg:text-lg font-medium text-gray-300">
+                    <p className="flex items-center gap-2 text-md lg:text-lg font-medium text-TextFourth">
                       Points Required:
-                      <span className="hind-siliguri-light">
+                      <span className="hind-siliguri-light text-TextFourth">
                         {data?.data?.pointsRequired}
                       </span>
                     </p>
 
-                    <p className="flex items-center gap-2 text-md lg:text-lg font-medium text-gray-300">
+                    <p className="flex items-center gap-2 text-md lg:text-lg font-medium text-TextFourth">
                       Level:{" "}
-                      <span className="hind-siliguri-light">
+                      <span className="hind-siliguri-light text-TextFourth">
                         {data?.data?.difficultyLevel}
                       </span>
                     </p>
-                    <p className="flex items-center gap-2 text-md lg:text-lg font-medium text-gray-300">
+                    <p className="flex items-center gap-2 text-md lg:text-lg font-medium text-TextFourth">
                       Category:{" "}
-                      <span className="hind-siliguri-light">
+                      <span className="hind-siliguri-light text-TextFourth">
                         {data?.data?.category?.name}
                       </span>
                     </p>
-                    <p className="flex items-center gap-2 text-md lg:text-lg font-medium text-gray-300">
+                    <p className="flex items-center gap-2 text-md lg:text-lg font-medium text-TextFourth">
                       Subject:{" "}
-                      <span className="hind-siliguri-light">
+                      <span className="hind-siliguri-light text-TextFourth">
                         {data?.data?.subject?.name}
                       </span>
                     </p>
                   </div>
                 </div>
 
-                <hr className=" border-gray-800 mt-5" />
+                <hr className=" border-gray-300 mt-5" />
                 <div className="flex items-end justify-end mt-3">
                   {token ? (
                     <Button
@@ -299,7 +299,7 @@ const QuizDetails = () => {
             {isToggled && data?.data && (
               <div className="mt-5">
                 {!reviewMode ? (
-                  <div className="border border-gray-800 rounded-md p-4 relative">
+                  <div className="border border-gray-300 rounded-md p-4 relative">
                     <div>
                       <p
                         className={`absolute top-0 right-0 w-[140px] py-1 text-center text-lg text-white hind-siliguri-light rounded-tr-sm ${timer > 0 ? "bg-green-600" : "bg-red-600"
@@ -322,7 +322,7 @@ const QuizDetails = () => {
                         {/* Display question text */}
                         <div className="flex items-start lg:items-center gap-1 my-2">
                           <FaQuestion size={18} className="text-red-600" />
-                          <h1 className="text-lg text-gray-300 hind-siliguri-semibold">
+                          <h1 className="text-lg text-TextFourth hind-siliguri-semibold">
                             <MathJax inline>
                               {currentQuestion?.questionText}
                             </MathJax>
@@ -334,7 +334,7 @@ const QuizDetails = () => {
                           {currentQuestion?.options.map(
                             (option: string, i: number) => (
                               <div key={i}>
-                                <label className="flex text-gray-300 items-center gap-2 text-lg">
+                                <label className="flex text-TextFourth items-center gap-2 text-lg">
                                   <input
                                     type="radio"
                                     name={`question-${currentQuestionIndex}`}
@@ -380,21 +380,21 @@ const QuizDetails = () => {
                   </div>
                 ) : (
                   <div>
-                    <h2 className="text-center text-xl hind-siliguri-semibold text-gray-400">
+                    <h2 className="text-center text-xl hind-siliguri-semibold text-TextFourth">
                       Review Your Answers
                     </h2>
                     {data?.data?.questions.map((item: any, index: number) => (
                       <div
                         key={index}
-                        className="border border-gray-800 rounded-md p-4 mt-5"
+                        className="border border-gray-300 rounded-md p-4 mt-5"
                       >
-                        <h3 className="text-xl text-gray-300 hind-siliguri-semibold">
+                        <h3 className="text-xl text-TextThird hind-siliguri-semibold">
                           <MathJax inline> {item.questionText}</MathJax>
                         </h3>
                         <div>
                           {item.options.map((option: string, i: number) => (
                             <div key={i}>
-                              <label className="flex text-gray-300 items-center gap-2 text-lg">
+                              <label className="flex text-TextFourth items-center gap-2 text-lg">
                                 <input
                                   type="radio"
                                   name={`question-${index}`}

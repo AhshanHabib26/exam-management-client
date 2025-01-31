@@ -45,9 +45,9 @@ const TopNav = () => {
           <div className="flex items-center gap-5">
             <div>
               <Link to="/">
-              <h1 className="text-TextPrimary text-xl uppercase hind-siliguri-semibold">
-                nihamsquiz
-              </h1>
+                <h1 className="text-TextPrimary text-xl uppercase hind-siliguri-semibold">
+                  nihamsquiz
+                </h1>
               </Link>
             </div>
             <div className="hidden lg:block">
@@ -103,7 +103,7 @@ const TopNav = () => {
                     <Link to="/login">
                       <Button
                         size="lg"
-                        className=" bg-BgPrimary hover:bg-BgPrimaryHover text-lg font-light"
+                        className=" bg-BgPrimaryHover hover:bg-BgSecondary text-lg font-light"
                       >
                         Get Started
                       </Button>
@@ -207,7 +207,7 @@ const TopNav = () => {
                           <Link to="/login">
                             <Button
                               size="lg"
-                              className=" w-full bg-BgPrimary hover:bg-BgPrimaryHover text-lg font-light"
+                              className=" w-full bg-BgPrimaryHover hover:bg-BgSecondary text-lg font-light"
                             >
                               Get Started
                             </Button>
