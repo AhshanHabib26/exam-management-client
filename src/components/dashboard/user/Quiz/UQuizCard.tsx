@@ -30,7 +30,7 @@ const UQuizCard: React.FC<TProgressProps> = ({ progress }) => {
       <StatCard
         value={totalCorrectAnswers}
         label="Correct Answer"
-        bg="bg-gray-300"
+        bg="bg-violet-300"
       />
       <StatCard
         value={totalWrongAnswers}

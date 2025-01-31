@@ -61,7 +61,7 @@ export default function AdminDashboardLayout() {
               <SidebarTrigger />
               <Separator orientation="vertical" className="mr-1 h-4" />
               <div>
-                <h1 className="text-[16px] font-medium">
+                <h1 className="text-[15px] font-medium">
                   Welcome to{" "}
                   <span className="text-TextSecondary">
                     {data?.data?.firstName ?? "Guest"}
@@ -69,8 +69,8 @@ export default function AdminDashboardLayout() {
                 </h1>
                 <div className="flex items-center gap-1">
                   <p className="text-sm uppercase text-gray-600">{user?.role}</p>
-                  <span className="text-gray-600">|</span>
-                  <p className="text-gray-600">{greeting}</p>
+                  <span className="text-gray-600 hidden md:block lg:block">|</span>
+                  <p className="text-gray-600 hidden md:block lg:block">{greeting}</p>
                   <span className=" hidden lg:block"> {icon}</span>
                 </div>
               </div>

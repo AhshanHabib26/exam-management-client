@@ -321,8 +321,8 @@ const QuizDetails = () => {
 
                         {/* Display question text */}
                         <div className="flex items-start lg:items-center gap-1 my-2">
-                          <FaQuestion size={18} className="text-red-600" />
-                          <h1 className="text-lg text-TextFourth hind-siliguri-semibold">
+                          <FaQuestion size={18} className="text-red-600 mt-1" />
+                          <h1 className="text-[16px] text-TextFourth font-medium">
                             <MathJax inline>
                               {currentQuestion?.questionText}
                             </MathJax>
@@ -334,7 +334,7 @@ const QuizDetails = () => {
                           {currentQuestion?.options.map(
                             (option: string, i: number) => (
                               <div key={i}>
-                                <label className="flex text-TextFourth items-center gap-2 text-lg">
+                                <label className="flex text-TextFourth items-center gap-2 text-[16px]">
                                   <input
                                     type="radio"
                                     name={`question-${currentQuestionIndex}`}
@@ -388,13 +388,13 @@ const QuizDetails = () => {
                         key={index}
                         className="border border-gray-300 rounded-md p-4 mt-5"
                       >
-                        <h3 className="text-xl text-TextThird hind-siliguri-semibold">
+                        <h3 className="text-[16px] text-TextFourth font-medium mb-3">
                           <MathJax inline> {item.questionText}</MathJax>
                         </h3>
                         <div>
                           {item.options.map((option: string, i: number) => (
                             <div key={i}>
-                              <label className="flex text-TextFourth items-center gap-2 text-lg">
+                              <label className="flex text-TextFourth items-center gap-2 text-[16px]">
                                 <input
                                   type="radio"
                                   name={`question-${index}`}

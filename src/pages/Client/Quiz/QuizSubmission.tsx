@@ -86,13 +86,13 @@ const QuizSubmissionPage = () => {
                     key={question?._id}
                     className="border-b border-gray-300 pb-4"
                   >
-                    <h2 className="text-lg font-normal mb-2 text-TextThird">
+                    <h2 className="text-[16px] font-medium mb-2 text-TextFourth">
                       Q {index + 1}:{" "}
                       <MathJax inline>{question?.questionText}</MathJax>
                     </h2>
                     <ul className="list-disc pl-5">
                       {question?.options.map((option, i) => {
-                        let optionClasses = "p-2 rounded cursor-pointer";
+                        let optionClasses = "p-1 rounded cursor-pointer";
                         if (option === question?.correctOption) {
                           optionClasses += " bg-green-200 text-green-700";
                         } else if (
@@ -129,12 +129,12 @@ const QuizSubmissionPage = () => {
                 );
               })}
             </div>
-            <div className="mt-6 bg-BgPrimaryHover p-4 rounded-md flex items-start lg:items-center lg:justify-between flex-col lg:flex-row justify-start">
-              <p className="text-lg font-semibold text-white">
+            <div className="mt-6 bg-BgPrimaryHover p-3 rounded-md flex items-start lg:items-center lg:justify-between flex-col lg:flex-row justify-start">
+              <p className="text-lg font-medium text-white">
                 Total Questions: {questions?.length}
               </p>
-              <p className="text-lg font-semibold text-white">Total Marks: {totalMarks}</p>
-              <p className="text-lg font-semibold text-white">
+              <p className="text-lg font-medium text-white">Total Marks: {totalMarks}</p>
+              <p className="text-lg font-medium text-white">
                 Correct Answers: {correctAnswersCount}
               </p>
             </div>
@@ -143,7 +143,7 @@ const QuizSubmissionPage = () => {
                 className=" bg-BgPrimary hover:bg-BgPrimaryHover px-3 py-2 text-white rounded-sm mt-4"
                 to="/exam"
               >
-                Back to Exam Page
+                Exam Page
               </Link>
 
               {user?.role && roleToDashboard[user.role] ? (
@@ -151,7 +151,7 @@ const QuizSubmissionPage = () => {
                 className=" bg-BgPrimaryHover hover:bg-BgPrimary px-3 py-2 text-white rounded-sm mt-4"
                 to={roleToDashboard[user.role]}
               >
-                Go to Dashboard
+                Dashboard
               </Link> ) : null}
             </div>
           </div>

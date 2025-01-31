@@ -16,8 +16,8 @@ const Banner = () => {
             <p className=" text-lg hind-siliguri-light select-none">
               Introducing <span className=" text-TextPrimaryHover">Award Winning Quiz Website</span>
             </p>
-            <h1 className="text-5xl lg:text-7xl text-center hind-siliguri-bold max-w-[25ch] my-2 select-none">🎉Challenge Your Mind, One Question at a Time!</h1>
-            <p className="text-xl hind-siliguri-light mb-3 text-center select-none">
+            <h1 className="text-4xl lg:text-7xl text-center hind-siliguri-bold max-w-[25ch] my-2 select-none">🎉Challenge Your Mind, One Question at a Time!</h1>
+            <p className="text-lg lg:text-xl hind-siliguri-light mb-3 text-center select-none">
               Explore quizzes, unlock achievements, and master new topics. Join
               the fun today!
             </p>

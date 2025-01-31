@@ -27,7 +27,7 @@ const QuizResultModal: React.FC<ModalProps> = ({
 
   return (
     <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-50">
-      <div className="bg-white p-6 rounded-lg shadow-lg max-w-md w-full">
+      <div className="bg-white p-6 rounded-lg shadow-lg max-w-sm w-full">
         <h2 className="text-xl text-gray-800 font-semibold mb-4 text-center">
           Quiz Submitted
         </h2>

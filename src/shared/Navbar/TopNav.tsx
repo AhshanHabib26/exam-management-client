@@ -119,23 +119,28 @@ const TopNav = () => {
                 </SheetTrigger>
                 <SheetContent
                   side="left"
-                  className="w-[250px] bg-gray-900 border-r-0"
+                  className="w-[250px]  border-r-0"
+                  style={{
+                    background: "linear-gradient(90deg, rgba(238, 255, 241, 1) 0%, rgba(227, 255, 195, 1) 100%)",
+                  }}
                 >
+
+
                   <SheetHeader>
                     <SheetTitle className="flex items-start">
                       <Link
-                        className="text-xl text-gray-300 uppercase font-bold"
+                        className="text-xl text-TextFourth uppercase font-bold"
                         to="/"
                       >
                         Nihamsquiz
                       </Link>
                     </SheetTitle>
-                    <hr className="border-dashed border-gray-700" />
+                    <hr className="border-dashed border-gray-200" />
                     <SheetDescription className="flex items-start flex-col">
                       {
-                        token && <div className="flex flex-col items-start gap-2 mt-3">
+                        token && <div className="flex flex-col items-start gap-1 mt-2">
                           <Link
-                            className="text-lg text-gray-300 hover:text-TextPrimary"
+                            className="text-lg text-TextFourth hover:text-TextSecondary"
                             to="/"
                           >
                             <span className="flex items-center gap-1">
@@ -144,7 +149,7 @@ const TopNav = () => {
                           </Link>
 
                           <Link
-                            className="text-lg text-gray-300 hover:text-TextPrimary"
+                            className="text-lg text-TextFourth hover:text-TextSecondary"
                             to="/mcq"
                           >
                             <span className="flex items-center gap-1">
@@ -153,7 +158,7 @@ const TopNav = () => {
                           </Link>
 
                           <Link
-                            className="text-lg text-gray-300 hover:text-TextPrimary"
+                            className="text-lg text-TextFourth hover:text-TextSecondary"
                             to="/exam"
                           >
                             <span className="flex items-center gap-1">
@@ -162,7 +167,7 @@ const TopNav = () => {
                           </Link>
 
                           <Link
-                            className="text-lg text-gray-300 hover:text-TextPrimary"
+                            className="text-lg text-TextFourth hover:text-TextSecondary"
                             to="/price-plan"
                           >
                             <span className="flex items-center gap-1">
@@ -182,7 +187,7 @@ const TopNav = () => {
                           <>
                             {user?.role && roleToDashboard[user.role] ? (
                               <Link
-                                className="text-lg text-gray-300 hover:text-TextPrimary"
+                                className="text-lg text-TextFourth hover:text-TextSecondary"
                                 to={roleToDashboard[user.role]}
                               >
                                 <span className="flex items-center gap-1"> <MdDashboard size={16} />  Dashboard</span>

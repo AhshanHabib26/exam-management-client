@@ -89,16 +89,7 @@ const UQuizListCard: React.FC<TQuizProps> = ({ quiz }) => {
               </div>
               <div className="flex gap-1 items-center">
                 <Layers3 className=" text-gray-700" size={18} />
-                <div className="flex items-center gap-1">
-                  {quiz?.tags?.slice(0, 2).map((t: string, index: number) => (
-                    <div
-                      key={index}
-                      className="border-[0.5px] border-dashed px-3 py-[2px] text-sm border-gray-300 rounded-sm"
-                    >
-                      <p className="hind-siliguri-light">{t}</p>
-                    </div>
-                  ))}
-                </div>
+                <p className="text-gray-700">{quiz?.category?.name}</p>
               </div>
             </div>
           </div>
