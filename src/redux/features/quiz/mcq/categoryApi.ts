@@ -1,6 +1,6 @@
 import { baseApi } from "@/redux/api/baseApi";
 import { TResponseRedux } from "@/types";
-import { IBoard } from "@/types/common.data";
+import { IMCQCategory } from "@/types/common.data";
 
 const mcqCategoryApi = baseApi.injectEndpoints({
   endpoints: (builder) => ({
@@ -41,7 +41,7 @@ const mcqCategoryApi = baseApi.injectEndpoints({
       },
       keepUnusedDataFor: 600,
       providesTags: ["MCQCategory"],
-      transformResponse: (response: TResponseRedux<IBoard[]>) => ({
+      transformResponse: (response: TResponseRedux<IMCQCategory[]>) => ({
         data: response.data,
         meta: response.meta,
       }),
