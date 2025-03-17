@@ -1,50 +1,93 @@
-# React + TypeScript + Vite
+### Project Details
+- Project Name: Quiz Management (An online quiz website for students to practice their knowledge.)
+- Overview: Education Quiz Website is a full-stack project that I have built using React, TypeScript, Tailwind CSS, Express, and MongoDB. It is mainly focused on students who want to practice their knowledge. It has a lot of features like a timer, multiple-choice questions, and more. If you want to check out the project, you can visit the live link.
+- Project Technology:
+  - Frontend: React, TypeScript, Redux, RTK Query, Tailwind CSS, ShadCN, Moment etc.
+  - Backend: Express, MongoDB, Mongoose, TypeScript.
+- Project URL:
+  - For Frontend: [Click Here](https://quizexams.netlify.app/)
+  - For Backend: [Contact Me](https://wa.me/1646418365)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
+### Project Details (Frontend)
+- Main Menu :
+  - Brand Logo
+  - Date
+  - Get Satrted Button
 
-Currently, two official plugins are available:
+- For Login User (Main Menu)
+  - Home
+  - Daily MCQ
+  - Exam
+  - Price Plan
+  - Dashboard
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Dashboard Sidebar Menu
+  - For Admin
+    - Dashboard
+      - Dashboard
+      - My Submissons
+    - MCQ
+      - All MCQ
+      - Ceate MCQ
+    - MCQ Options
+      - Category
+      - Subject
+      - Topics
+    - Exam
+      - All Exam
+      - Create Exam
+      - Exam Category
+      - Exam Topics
+    - Package Plan
+      - All Package
+      - Create Package
+      - All Subscriber
+    - User Submission
+      - All Submission
+    - User
+      - All User
+    - Feedback & Suggestions
+    - Settings
+      - Profile
+      - Change Password
+      - Back To Home
+---
+  - For User
+    - Dashboard
+      - Dashboard
+      - MCQ
+      - Quiz
+    - Feedback & Suggestions
+    - Settings
+      - Profile
+      - Change Password
+      - Back To Home
+---
+- Home Page Section:
+  - Navbar
+  - Banner
+  - Footer (Only Login)
 
-## Expanding the ESLint configuration
+---
+### Features
+  * User Authentication
+  * User Dashaboard
+  * Quiz Management
+  * Question Management
+  * Result Management
+  * Payment Gateway (Manual)
+  * Admin Dashboard
+  * Admin Management
+  * Price Plan Management
+  
+---
+#### This Website Totally User Friendly and Fully Responsive, Please review this awesome projects and feel free and give your opinion Or any suggestions. Really, it's my pleasure.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+----
+### Note
+  * If you want to design a website or need any website-related service, feel free to ask me.
+    * [WhatsApp](https://wa.me/1646418365)
+    * [Email](ahshan.habib026@gmail.com)
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+---
